@@ -1,0 +1,15 @@
+.tit-img-box{display:block; position: relative;height:30px;border-bottom: 1px solid #ccc;}
+.tit-img-more{position:absolute; background:url(../images/title/more.jpg) 0 0 no-repeat; width: 73px; height:30px; bottom:6px;right: 26px;}
+.tit-img-more:hover{background:url(../images/title/more.jpg) 0 -30px no-repeat;}
+.tit-img-detail{position:absolute; background:url(../images/title/detail.jpg) 0 0 no-repeat; width: 82px; height:50px; bottom:6px;right: 26px;}
+.tit-img-detail:hover{background:url(../images/title/detail.jpg) 0 -50px no-repeat;}
+.tit-img-chs{display:block; position: relative; height:61px; background:url(../images/title/chs.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-hlr{display:block; position: relative; height:61px; background:url(../images/title/hlr.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-hys{display:block; position: relative; height:61px; background:url(../images/title/hys.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-jxal{display:block; position: relative; height:61px; background:url(../images/title/jxal.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-sys{display:block; position: relative; height:61px; background:url(../images/title/sys.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-zxmz{display:block; position: relative; height:61px; background:url(../images/title/zxmz.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-zxs{display:block; position: relative; height:61px; background:url(../images/title/zxs.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-wmxn{display:block; position: relative; height:104px; background:url(../images/title/wmxn.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-dyqz{display:block; position: relative; height:102px; background:url(../images/title/dyqz.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}
+.tit-img-lmxn{display:block; position: relative; height:82px; background:url(../images/title/lmxn.jpg) left no-repeat; padding-bottom: 20px;border-bottom: 1px solid #ccc;}

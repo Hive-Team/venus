@@ -1,0 +1,127 @@
+/*
+***
+分配图片资源
+***
+*/
+
+
+/* logo */
+.logo-1{display:block;width:162px;height:67px;background-image:url(../images/logo-1.png);}
+.logo-2{display:block;width:162px;height:67px;background-image:url(../images/logo-2.png);}
+
+
+
+/* 心形图标 */
+.ico-heart{background-image:url(../images/ico-heart.png);display:block;overflow:hidden;}
+.ico-heart-big{width:25px;height:23px;}
+.ico-heart-normal{width:22px;height:20px;background-position:0 -23px;}
+.ico-heart-small{width:16px;height:15px;background-position:0 -43px;}
+
+
+
+/* 五角星 */
+.ico-star-1-js{display:block;width:100px;height:20px;background-image:url(../images/ico-star-1-js.png);}
+.ico-star-1-pink-js{}
+.ico-star-1-gray-js{background-position:0 -20px;}
+
+.ico-star-2-js{display:block;width:80px;height:16px;background-image:url(../images/ico-star-1-js.png);background-size:16px 32px;}
+.ico-star-2-pink-js{}
+.ico-star-2-gray-js{background-position:0 -16px;}
+
+.ico-star-3-js{display:block;width:60px;height:12px;background-image:url(../images/ico-star-1-js.png);background-size:12px 24px;}
+.ico-star-3-pink-js{}
+.ico-star-3-gray-js{background-position:0 -12px;}
+
+
+
+/* 图标组1 */
+.ico-1-js{background-image:url(../images/ico-1-js.png);display:block;overflow:hidden;width:18px;height:18px;}
+.ico-1-1-js{background-position:0 0;}
+.ico-1-2-js{background-position:0 -18px;}
+.ico-1-3-js{background-position:0 -36px;}
+.ico-1-4-js{background-position:0 -54px;}
+
+.ico-2-js{background-image:url(../images/ico-2-js.png);display:block;overflow:hidden;width:29px;height:29px;}
+.ico-2-1-js{background-position:0 0;}
+.ico-2-2-js{background-position:0 -29px;}
+.ico-2-3-js{background-position:0 -58px;}
+.ico-2-4-js{background-position:0 -87px;}
+.ico-2-5-js{background-position:0 -116px;}
+.ico-2-6-js{background-position:0 -145px;}
+
+.ico-3-js{background-image:url(../images/ico-3-js.png);display:block;overflow:hidden;width:40px;height:40px;}
+.ico-3-1-js{background-position:0 0;}
+.ico-3-2-js{background-position:0 -40px;}
+
+.ico-4-js{background-image:url(../images/ico-4-js.png);display:block;overflow:hidden;width:58px;height:58px;}
+.ico-4-1-js{background-position:0 0;}
+.ico-4-2-js{background-position:0 -57px;}
+.ico-4-3-js{background-position:0 -114px;}
+
+.ico-5-js{background-image:url(../images/ico-8-js.png);display:block;overflow:hidden;width:14px;height:19px;}
+
+.ico-6-js{background-image:url(../images/ico-9-js.png);display:block;overflow:hidden;width:17px;height:18px;}
+
+.ico-7-js{background-image:url(../images/ico-6-js.png);display:block;overflow:hidden;width:28px;height:22px;}
+.ico-7-1-js{background-position:0 0;}
+.ico-7-2-js{background-position:0 -22px;}
+
+.ico-8-js{background-image:url(../images/ico-10-js.png);display:block;overflow:hidden;width:13px;height:16px;}
+
+.ico-9-js{background-image:url(../images/ico-11-js.png);display:block;overflow:hidden;width:24px;height:24px;}
+.ico-9-1-js{background-position:0 0;}
+.ico-9-2-js{background-position:0 -24px;}
+.ico-9-3-js{background-position:0 -48px;}
+
+.ico-10-js{background-image:url(../images/ico-7-js.png);display:block;overflow:hidden;width:23px;height:23px;}
+.ico-10-1-js{background-position:0 0;}
+.ico-10-2-js{background-position:0 -23px;}
+
+.ico-11-js{background-image:url(../images/ico-12-js.png);display:block;overflow:hidden;width:16px;height:16px;}
+
+.ico-12-js{background-image:url(../images/ico-13-js.png);display:block;overflow:hidden;width:38px;height:38px;}
+
+.ico-13-js{background-image:url(../images/ico-14-js.png);display:block;overflow:hidden;width:19px;height:21px;}
+
+.ico-14-js{background-image:url(../images/ico-15-js.png);display:block;overflow:hidden;width:17px;height:14px;}
+
+.ico-15-js{background-image:url(../images/arrow-big-js.png);display:block;overflow:hidden;width:35px;height:56px;}
+.ico-15-lef-js{background-position:0 0;}
+.ico-15-rig-js{background-position:0 -56px;}
+
+.ico-16-js{background-image:url(../images/ico-16-js.png);display:block;overflow:hidden;width:18px;height:18px;}
+.ico-16-1-js{background-position:0 0;}
+.ico-16-2-js{background-position:0 -18px;}
+.ico-16-3-js{background-position:0 -36px;}
+.ico-16-4-js{background-position:0 -54px;}
+.ico-16-5-js{background-position:0 -72px;}
+
+
+
+/* 花边上下边框 */
+.flower-border{/*background-image:url(../images/flower-border.png);*/width:100%;height:104px;}
+
+
+
+/* 零碎 */
+.ico-phone{display:block;width:16px;height:16px;background-image:url(../images/ico-phone.png);}
+.ico-weixin{background-image:url(../images/ico-weixin.png);display:block;overflow:hidden;width:21px;height:17px;}
+.ico-ponint-1{background-image:url(../images/ico-point-1.png);display:block;width:17px;height:23px;}
+.screening-1-js .item-sel{background:url(../images/ico-5-js.png) no-repeat right bottom;}
+.custom-banner-intr-bg{background:url('http://image.jsbn.com/static/libao/intr-bg.png') no-repeat center top;}
+.lef-hover-box:hover .ico-15-js,.rig-hover-box:hover .ico-15-js{background-image:url(../images/arrow-big-hover-js.png);}
+.rect-1-js{background-image:url(../images/rect-1-js.png);}
+.rect-4-js{background-image:url(../images/hover-head.png);}
+.hotel-user-needs .title-box{background-image:url(../images/test/index.png);background-position:center center;background-repeat:no-repeat;}
+
+
+
+/* hack */
+.all-more-1 .arrow-box{width:22px\0;height:21px\0;background-image:url(../images/arrow-1-js.png)\0;}
+
+.ico-star-2-js{background-image:url(../images/ico-star-2-js.png)\0;}
+.ico-star-3-js{background-image:url(../images/ico-star-3-js.png)\0;}
+
+.slider-box-3-js .arrow-2-js{background-image:url(../images/arrow-small-js.png)\0;}
+
+.custom-container-banner .blur-box{background:url(../images/ico-px-1.png)\0;}

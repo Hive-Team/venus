@@ -1,0 +1,1273 @@
+/* 主容器 */
+.main{position:relative;z-index:10;background-color:#fff;}
+
+
+
+/* 首页导航 */
+.home-nav{height:80px;position:relative;z-index:40;padding-bottom:30px;background-color:#fff;}
+.home-nav .responsive-box{position:relative;height:100%;background-color:#fff;border-bottom:1px solid #ddd;}
+.home-nav a{display:block;line-height:60px;height:100%;font-size:14px;position:relative;float:left;padding:0 20px;}
+.home-nav .circle-point-js{float:left;margin-top:30px;}
+.home-nav .line-bottom{width:100%;height:0;position:absolute;left:0;bottom:0;background-color:#000;}
+.home-nav a:hover .line-bottom{height:10px;}
+.home-nav .func{position:absolute;right:0;top:0;height:100%;}
+/* linst-1-js样式重写 */
+.list-1-1-js li:nth-child(3){margin-right:0;}
+.list-1-2-js{border-top:1px solid #ddd;padding-top:30px;}
+.list-1-2-js p{line-height:20px;color:#999;overflow:hidden;height:100px;}
+.list-1-2-js li:nth-child(3){margin-right:0;}
+.list-1-2-js .last{margin:0;}
+.list-1-2-js .img-box{height:250px;}
+.list-1-1-js{float:left;}
+.list-1-1-js .item-first .img-box{height:270px;}
+.list-1-js .img-box:nth-child(2){height:270px;}
+
+.list-2-js {width: 1300px}
+
+/* 首页banner */
+.home-banner{height:680px;}
+.home-banner .slider-box-1-js{position:fixed;z-index:0;top:0;left:50%;margin-left:-600px;}
+.map-box{height:600px;}
+
+
+
+/* 婚纱摄影 */
+.photoxs-box-1{border:5px solid #000;height:350px;padding:20px;background-color:#000;}
+.photoxs-box-1 a{display:block;width:100%;height:100%;position:relative;}
+.photoxs-box-1 .more{width:100%;text-align:center;position:absolute;left:0;top:180px;}
+.photoxs-box-1 .more span{font-size:24px;color:#f1f1f1;}
+.photoxs-box-1 .h2{font-size:40px;font-weight:bold;color:#f1f1f1;text-align:center;position:absolute;width:100%;text-align:center;left:0;top:120px;}
+.photoxs-box-1 .h3{font-size:40px;font-weight:bold;color:#333;text-align:center;padding:160px 0 30px;}
+.photoxs-box-2{border:5px solid #000;height:500px;padding:20px;background-color:#000;}
+.photoxs-box-2 a{display:block;width:100%;height:100%;position:relative;}
+.photoxs-box-2 .more{text-align:center;width:100%;position:absolute;left:0;top:270px;}
+.photoxs-box-2 .more span{font-size:24px;color:#f1f1f1;}
+.photoxs-box-2 .h2{font-size:50px;font-weight:bold;color:#f1f1f1;text-align:center;width:100%;position:absolute;left:0;top:180px;}
+
+.shot-adv{}
+.shot-adv .suite-link,.shot-adv .samples-link,.shot-adv .pringles-link{display:block;height:100%;width:400px;position:absolute;background:#fff;opacity:0;left:0;top:0;}
+.shot-adv .samples-link{left:400px;height:402px;}
+.shot-adv .pringles-link{left:800px;height:402px;}
+.shot-adv .suite-link:hover,.shot-adv .samples-link:hover,.shot-adv .pringles-link:hover{opacity:0.5}
+/* list-10-photoxs-js */
+.list-10-photoxs-js{width:1300px;}
+.list-10-photoxs-js li{height:550px;}
+.list-10-photoxs-js .mask-bg{height:50px;}
+.list-10-photoxs-js h2{height:50px;font-size:20px;line-height:50px;}
+.list-10-photoxs-js .nav-box{width:100%;height:100%;background-color:#000;}
+.list-10-photoxs-js .nav-box h3{font-weight:normal;font-size:40px;color:#eee;padding:0 0 40px;text-align:center;padding-top:120px;}
+.list-10-photoxs-js .nav{marign:0 auto;padding:0;}
+.list-10-photoxs-js .nav a{float:none;height:auto;text-align:center;font-size:14px;color:#eee;display:block;line-height:40px;}
+.list-10-photoxs-js .nav a:hover{color:#d79b00;}
+/*.list-10-photoxs-js li:nth-child(4n){margin-right:0;}*/
+
+
+
+/* 样片&客片欣赏 */
+.custom-banner{height:680px;}
+.custom-banner .info{width:290px;height:140px;position:absolute;left:0;bottom:40px;z-index:100;}
+.custom-banner .pos-box{z-index:10;}
+.custom-banner .mask-bg{display:block;background-color:#000;opacity:0.5;width:100%;height:100%;position:absolute;left:0;top:0;z-index:0;}
+.custom-banner h2{text-align:center;padding:22px 0 10px;}
+.custom-banner h2 *{display:inline-block;}
+.custom-banner h2 span{font-size:26px;color:#eee;font-weight:normal;}
+.custom-banner h2 i{margin:0 10px;}
+.custom-banner .time,.custom-banner .hit{font-size:20px;color:#eee;display:block;text-align:center;}
+.custom-banner .hit span{color:#fff;}
+
+.custom-container-banner{height:690px;position:relative;overflow:hidden;border-bottom:1px solid #000;}
+.custom-container-banner .slider-box-1-js{position:absolute;left:50%;top:0;margin-left:-960px;height:690px;width:1920px;z-index:10;}
+.custom-banner-intr-bg{width:1920px;height:205px;position:absolute;z-index:100;left:50%;bottom:0;margin-left:-960px;background-image:url('http://image.jsbn.com/static/libao/intr-bg.png');background-color:rgba(255,255,255,0.1);}
+.custom-banner-intr-bg .rect-1-js{position:absolute;left:50%;margin-left:-522px;top:-5px;display:block;width:24px;height:13px;}
+.custom-container-banner .blur-box{-webkit-filter: blur(15px);-moz-filter: blur(15px);-o-filter: blur(15px);-ms-filter: blur(15px);filter: blur(15px);height:205px;overflow:hidden;z-index:50;width:1920px;margin-left:-960px;position:absolute;left:50%;bottom:0;}
+.custom-container-banner .blur-box .slider-box-1-js{position:absolute;top:auto;left:0;bottom:0;margin:0;}
+.custom-container-banner .num-box{width:140px;height:160px;position:absolute;z-index:200;left:50%;bottom:20px;margin-left:-580px;}
+.custom-container-banner .num-box *{display:block;position:absolute;}
+.custom-container-banner .num-box span{font-size:70px;color:#333;font-weight:bold;left:25px;top:5px;}
+.custom-container-banner .num-box em{font-size:30px;color:#333;font-weight:normal;left:65px;top:70px;}
+.custom-container-banner .num-box b{font-weight:normal;font-size:40px;color:#333;left:70px;top:95px;}
+/*.list-6-photoxs-js li:nth-child(3n){margin-right:0;}*/
+.list-6-photoxs-js{width:1300px;padding:0 10px;}
+.list-6-photoxs-js li{height:400px;}
+.list-6-photoxs-js .nav-box{width:100%;height:100%;background-color:#000;}
+.list-6-photoxs-js .nav-box h3{font-weight:normal;font-size:40px;color:#eee;padding:0 0 40px;text-align:center;padding-top:120px;}
+.list-6-photoxs-js .nav{marign:0 auto;padding:0;}
+.list-6-photoxs-js .nav a{float:none;height:auto;text-align:center;font-size:14px;color:#eee;display:block;line-height:40px;}
+.list-6-photoxs-js .nav a:hover{color:#d79b00;}
+.list-6-photoxs-1-js{margin-right: -30px; overflow: auto;}
+.slider-box-1-js .item{opacity:0;display: none;}
+.slider-box-1-js .item-current{opacity:1;display: block;}
+
+
+
+/* 样片&客片详情 */
+.kpxq-img-box{width:870px;height:560px;margin:0 auto 20px;position:relative;overflow:hidden;}
+.kpxq-img-box img{width:100%;height:100%;}
+.kpxq-img-box .arrow-2-js{position:absolute;top:250px;width:30px;height:30px;cursor:pointer;}
+.kpxq-img-box .arrow-2-lef-js{left:-60px;}
+.kpxq-img-box .arrow-2-rig-js{right:-60px;}
+.kpxq-img-box .lef-hover-box,
+.kpxq-img-box .rig-hover-box{position:absolute;height:100%;width:20%;left:0;top:0;}
+.kpxq-img-box .rig-hover-box{left:auto;right:0;}
+.kpxq-img-box .ico-15-js{position:absolute;top:50%;margin:-28px 0 0;display:none;}
+.kpxq-img-box .ico-15-lef-js{left:20%;}
+.kpxq-img-box .ico-15-rig-js{right:20%;}
+.kpxq-img-box:hover{cursor:pointer;}
+.kpxq-img-box:hover .ico-15-js{display:block;}
+.page-box-1{padding:80px 0;text-align:center;}
+.page-box-1 a{display:inline-block;padding:10px 40px;color:#eee;background-color:#333;font-size:14px;}
+.page-box-1 .prev-group{margin-right:80px;}
+
+
+
+/* 婚纱摄影 摄影师 */
+/* list-3-1-js */
+.list-3-1-js .figure{width:180px;margin-right:40px;}
+.list-3-js li li:last-child{margin:0;}
+.director-photography-box .list-20-js{margin-bottom:40px;}
+.director-photography-box .list-20-js .item-box{padding-top:40px;margin-top:40px;border-top:1px solid #eee;}
+.director-photography-box .list-20-js .avatar-box{margin-top:60px;}
+
+.container-ad-1 img{width:100%;}
+
+.dividing-line-box{}
+.dividing-line-box .line-zj{width:170px;height:5px;background-color:#333;overflow:hidden;}
+.dividing-line-box .line-gj{width:120px;height:5px;background-color:#333;overflow:hidden;}
+
+/* 婚纱摄影套系列表 */
+/* .list-7-js样式重写 */
+.list-7-js .func{width:318px;display:none;}
+.suites-list .list-7-js .price{margin-top:0;width:293px;padding:25px 25px 15px 0;}
+
+
+
+/* 婚纱摄影套系详情 */
+.wedding-detail{}
+.base-info{padding-left:530px;position:relative;height:420px;}
+.wedding-detail .slider-box-2-js{position:absolute;left:0;top:0;}
+.wedding-detail .sel-box{position:relative;}
+.wedding-detail .sel-box i{position:absolute;top:24px;cursor:pointer;}
+.wedding-detail .arrow-2-lef-js{left:25px;}
+.wedding-detail .arrow-2-rig-js{right:25px;}
+.wedding-detail .base-info .title{margin-bottom:20px;}
+.wedding-detail .base-info h1{font-size:30px;font-weight:normal;color:#333;margin-bottom:15px;}
+.wedding-detail .base-info h1 b{font-size:14px;font-weight:normal;color:#e83c76;margin-left:5px;}
+.wedding-detail .base-info .title span{font-size:14px;color:#999;}
+.wedding-detail .base-info .price{margin-bottom:15px;}
+.wedding-detail .base-info .price b,.wedding-detail .base-info .price span{font-size:32px;font-weight:bold;color:#e83c76;}
+.wedding-detail .base-info .price em{font-size:20px;margin-right:5px;}
+.wedding-detail .base-info .price span{color:#999;margin-left:10px;font-size:14px;}
+.wedding-detail .base-info p{line-height:24px;color:#999;}
+.wedding-detail .base-info p b{color:#666;}
+.wedding-detail .base-info .func{padding-top:20px;}
+.wedding-detail .base-info .func .btn-js{float:left;margin-right:20px;padding-left:40px;padding-right:40px;border-radius:5px;}
+.wedding-detail .base-info .collection{float:left;color:#666;font-size:16px;margin-top:12px;}
+.wedding-detail .detail-box{padding-top:40px;border-top:1px solid #e9e7e8;}
+.wedding-detail .photo-title-1{}
+.wedding-detail .photo-title-1 h2{font-size:50px;color:#e9e9e9;text-align:center;}
+.wedding-detail .photo-title-1 .h2{font-size:60px;}
+.wedding-detail .photo-title-1 span{display:block;text-align:center;color:#e9e9e9;padding:5px 0 10px;}
+.wedding-detail .photo-box{position:relative;}
+.wedding-detail .photo-box .top{height:630px;margin-bottom:1px;position:relative;z-index:10;}
+.wedding-detail .photo-box .lef{height:100%;width:430px;float:left;}
+.wedding-detail .photo-box .rig{height:100%;width:440px;float:left;}
+.wedding-detail .photo-box .tp,.wedding-detail .photo-box .bm{height:50%;width:100%;}
+.wedding-detail .photo-box .bottom{height:480px;width:100%;}
+.wedding-detail .photo-box img{width:100%;height:100%;float:left}
+.wedding-detail .photo-box .line-1{position:absolute;z-index:20;background-color:#fff;width:1px;height:100%;top:0;left:430px;overflow:hidden;}
+.wedding-detail .photo-box .line-2{position:absolute;z-index:20;background-color:#fff;height:1px;width:440px;top:315px;left:430px;overflow:hidden;}
+.wedding-detail .content{position:relative;padding-left:240px;}
+.wedding-detail .content h2{font-size:28px;position:absolute;color:#999;left:0;top:0;}
+.wedding-detail .content h2 span{font-size:20px;font-weight:normal;margin-left:60px;}
+.wedding-detail .content p{color:#666;font-size:14px;line-height:26px;}
+.wedding-detail .content p b{display:block;margin-bottom:10px;font-size:14px;}
+
+
+
+/* 婚宴预订 */
+.list-hotel-recommend{height:500px;}
+.list-hotel-recommend .column-mg30-6,.list-hotel-recommend .column-mg20-14,.list-hotel-recommend .column-5{height:100%;}
+.list-hotel-recommend .hotel-adv-box{display:block;width:100%;height:100%;}
+.list-hotel-recommend .hotel-adv-box img{width:100%;height:100%;}
+.list-hotel-recommend .top-ten-title{height:50px;line-height:50px;position:relative;background-color:#FC5682;}
+.list-hotel-recommend .top-ten-title h1{padding-left:50px;line-height:50px;color:#fff;font-size:18px;font-weight:normal;}
+.list-hotel-recommend .top-ten-title .ico-5-js{position:absolute;left:20px;top:15px;}
+.list-hotel-recommend .list-15-js{padding:15px 0 0 20px;}
+.list-hotel-recommend .hotel-top-ten-box{height:499px;border:1px solid #ddd;border-left:none;border-top:none;}
+.list-hotel-recommend .hotel-screening-1{border-bottom:none;}
+.all-more-1{margin:30px auto 40px;position:relative;padding-right:20px;}
+.all-more-1 .arrow-box{position:absolute;right:130px;top:18px;}
+.all-more-1 .arrow-box i{float:left;margin-right:-5px;border-color:#eee;width:12px;height:12px;}
+.all-more-1 span{font-size:20px;}
+
+/* 库类复写 */
+.list-hotel-recommend .sel-card-3-js .item{width:225px;}
+.list-hotel-recommend .sel-card-3-js .item-first{width:227px;border-left:none;}
+.list-hotel-recommend .list-14-js .item-recommend-box .arrow-1-js{position:absolute;right:20px;bottom:20px;}
+.list-hotel-recommend .list-14-js .item-first{width:227px;}
+.hotel-banquet-list .item-box:nth-child(2n){margin-right:0;}
+
+
+
+/* 酒店详情 */
+.hotel-detail-box{position:relative;padding:40px 0 40px 540px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;height:436px;}
+.hotel-detail-box .img-info{width:510px;position:absolute;left:0;top:40px;}
+.hotel-detail-box .base-info{padding:0;}
+.hotel-detail-box .base-info h1{font-size:30px;color:#333;margin-bottom:10px;line-height:34px;}
+.hotel-detail-box .base-info .p{color:#999;font-size:12px;line-height:30px;margin-right:20px;}
+.hotel-detail-box .base-info .p span{padding:0 5px;}
+.hotel-detail-box .base-info .p b{color:#333;font-size:12px;font-weight:normal;}
+.hotel-detail-box .base-info .p p{float:left;margin-right:30px;}
+.hotel-detail-box .base-info .ico-8-js{display:inline-block;}
+.hotel-detail-box .base-info{}
+.hotel-detail-box .score-info{border-top:1px solid #fce195;border-bottom:1px solid #fce195;background-color:#fefaef;padding:20px 25px 20px 30px;}
+.hotel-detail-box .star-box{float:left;border-right:1px solid #fce195;padding-right:30px;}
+.hotel-detail-box .star{height:30px;}
+.hotel-detail-box .star span{height:30px;line-height:30px;color:#666;float:left;margin-right:10px;}
+.hotel-detail-box .star div{height:30px;float:left;position:relative;width:60px;}
+.hotel-detail-box .ico-star-3-js{position:absolute;left:0;top:8px;}
+.hotel-detail-box .score-info .etc{padding-left:30px;float:left;}
+.hotel-detail-box .score-info .item{height:30px;line-height:30px;font-size:14px;color:#666;}
+.hotel-detail-box .score-info em{display:block;height:20px;margin-top:5px;line-height:20px;border-radius:3px;background-color:#FC5682;color:#fff;padding:0 10px;font-size:12px;position:relative;float:left;margin-right:15px;}
+.hotel-detail-box .score-info em span{color:#fff;}
+.hotel-detail-box .score-info .arrow-5-js{position:absolute;right:-4px;top:6px;}
+.hotel-detail-box .func{}
+.hotel-detail-box .viewing-field,.hotel-detail-box .contact-info{height:34px;float:left;border-radius:3px;line-height:34px;padding:0 30px 0 64px;cursor:pointer;position:relative;background-color:#4caedd;margin-right:20px;position:relative;color:#fff;font-size:14px;}
+.hotel-detail-box .contact-info{background-color:#f36798;}
+.hotel-detail-box .viewing-field span,.hotel-detail-box .contact-inf span{color:#fff;}
+.hotel-detail-box .ico-9-1-js,.hotel-detail-box .ico-9-2-js{position:absolute;left:30px;top:5px;}
+.hotel-detail-box .collection{height:34px;line-height:34px;float:left;display:block;position:relative;padding-left:29px;font-size:14px;color:#333;cursor:pointer;}
+.hotel-detail-box .ico-9-3-js{position:absolute;left:0;top:5px;}
+.hotel-detail-box .input-phone-number{height:40px;position:relative;background-color:#f1f2f3;border-radius:3px;margin-top:10px;float:left;}
+.hotel-detail-box .input-phone-number span{float:left;line-height:24px;display:block;margin-right:10px;padding-left:10px;margin-top:8px;}
+.hotel-detail-box .input-phone-number .input-text-box{width:140px;height:24px;float:left;margin-right:5px;margin-top:8px;background-color:#fff;float:left;}
+.hotel-detail-box .input-phone-number .input-text-box input{width:130px;height:16px;padding:5px 5px 3px;font-size:12px;color:#6cbaeb;}
+.hotel-detail-box .input-phone-number .arrow-5-js{position:absolute;left:38px;top:-5px;}
+.hotel-detail-box .input-phone-number .sub-1-js{padding:0 10px;line-height:24px;height:24px;background-color:#6cbaeb;float:left;margin-top:8px;border-radius:3px;}
+.hotel-detail-box .input-phone-number .sub-1-js input{background:none;cursor:pointer;}
+.hotel-detail-box .input-phone-number .sub-1-js span{margin:0;padding:0;color:#fff;}
+.hotel-detail-box .input-phone-number-1{}
+.hotel-detail-box .input-phone-number-1 .sub-1-js{background-color:#FC5682;}
+.hotel-detail-box .input-phone-number-1 .input-text-box input{color:#FC5682;}
+.hotel-detail-box .input-phone-number-1 .arrow-5-js{position:absolute;left:235px;}
+
+.hotel-detail-info{}
+.hotel-detail-info h2{font-size:18px;color:#555;font-weight:normal;}
+.hotel-detail-info .hotel-info-box{height:240px;border-top:1px solid #eee;border-bottom:1px solid #eee;padding-left:375px;overflow:hidden;position:relative;}
+.hotel-detail-info .hotel-info-box .img-box{width:360px;height:100%;position:absolute;left:0;top:0;}
+.hotel-detail-info .hotel-info-box img{width:100%;height:100%;}
+.hotel-detail-info .hotel-info-box .p{padding:15px 0 0;height:210px;overflow:hidden;}
+.hotel-detail-info .hotel-info-box p{line-height:30px;color:#666;}
+.hotel-detail-info .package{border-bottom:1px solid #eee;padding:30px 0 40px;}
+.hotel-detail-info .package .item{float:left;padding:0 35px;width:246px;}
+.hotel-detail-info .package .item .item{height:26px;line-height:26px;position:relative;width:auto;padding:0 0 0 10px;float:none;}
+.hotel-detail-info .package .circle{display:block;width:3px;height:3px;background:#ccc;overflow:hidden;border-radius:10px;position:absolute;left:0;top:14px;}
+.hotel-detail-info .package .title{position:relative;z-index:50;margin:0 auto;display:block;border-radius:50px;overflow:hidden;font-size:14px;width:145px;height:30px;line-height:30px;color:#fff;text-align:center;background-color:#FC5682;}
+.hotel-detail-info .package p{background-color:#faf6eb;height:90px;border-radius:5px;overflow:hidden;text-align:center;line-height:110px;overflow:hidden;margin-top:-15px;position:relative;z-index:10;margin-bottom:20px;}
+.hotel-detail-info .package .item-box b{font-size:16px;font-weight:normal;color:#333;}
+.hotel-detail-info .package p span{font-size:40px;color:#333;}
+.hotel-detail-info .package .arrow-2-js{width:8px;height:8px;margin:0 auto;border-color:#bbb;}
+.hotel-detail-info .menu-detail-box .head{height:50px;border-left:1px solid #ccc;border-right:1px solid #ccc;line-height:50px;text-align:center;}
+.hotel-detail-info .menu-detail-box .head span{color:#333;font-size:12px;}
+.hotel-detail-info .menu-detail-box .detail{padding:0 0 20px;margin:0 20px;border-bottom:1px solid #ccc;}
+.hotel-detail-info .user-rating{position:relative;height:140px;}
+.hotel-detail-info .user-rating .score-box{float:left;height:90px;margin-right:30px;}
+.hotel-detail-info .user-rating .score{width:100px;height:60px;line-height:60px;display:block;font-size:30px;color:#FC5682;text-align:center;}
+.hotel-detail-info .user-rating .star-box{height:20px;width:100%;position:relative;}
+.hotel-detail-info .user-rating .ico-star-1-js{position:absolute;left:0;top:0;}
+.hotel-detail-info .user-rating .power-box{float:left;height:90px;}
+.hotel-detail-info .user-rating .item{height:25px;margin-bottom:5px;}
+.hotel-detail-info .user-rating .item span{float:left;line-height:25px;display:block;margin-right:5px;}
+.hotel-detail-info .user-rating .power{width:120px;height:14px;position:relative;float:left;margin-top:4px;}
+.hotel-detail-info .user-rating .power div{width:100%;height:100%;position:absolute;left:0;top:0;border-radius:20px;overflow:hidden;float:left;}
+.hotel-detail-info .user-rating .gray{background-color:#d7d7d7;}
+.hotel-detail-info .user-rating .pink{background-color:#FC5682;}
+.hotel-detail-info .user-rating .btn-box{position:absolute;right:0;top:30px;}
+.hotel-detail-info .user-rating .btn-js{border-radius:5px;font-size:16px;}
+.hotel-detail-info .user-rating .tip{color:#aaa;display:block;margin-top:5px;}
+
+.hotel-recommend-adv-box{background-color:#f1f2f3;padding-top:15px;}
+.hotel-recommend-adv-box .title-4-js{margin:0 20px 15px;}
+.hotel-recommend-adv-box .title-4-js h1{color:#666;background-color:#f1f2f3;padding:0 15px;}
+.hotel-recommend-adv-box .title-4-js .line-middle{background-color:#aaa;}
+.hotel-recommend-adv-box .list-19-js{width:168px;margin:0 auto;padding-bottom:10px;}
+.hotel-recommend-adv-box .list-19-js .item-box{margin-bottom:15px;}
+.hotel-recommend-adv-box .line-1-box{height:10px;position:relative;width:100%;}
+.hotel-recommend-adv-box .line-middle{height:0;width:100%;border-top:1px dashed #aaa;position:absolute;left:0;top:5px;z-idnex:0;}
+.hotel-recommend-adv-box .arrow-3-lef-js,
+.hotel-recommend-adv-box .arrow-3-rig-js{position:absolute;left:0;border-color:transparent #fff;top:0;z-index:50;}
+.hotel-recommend-adv-box .arrow-3-lef-js{left:auto;right:0;border-color:transparent #fff;}
+
+.banquet-detail-info .banquet-img-box{height:540px;width:100%;}
+.banquet-detail-info .banquet-img-box img{width:100%;height:100%;}
+.banquet-detail-info .Case-box{height:480px;}
+.banquet-detail-info .Case-box .img-box{height:100%;display:block;float:left;width:720px;}
+.banquet-detail-info .Case-box img{width:100%;height:100%;}
+.banquet-detail-info .Case-box .info-box{float:left;width:229px;border:1px solid #eee;border-left:none;height:478px;position:relative;}
+.banquet-detail-info .Case-box h3{padding:30px 0 20px 40px;font-size:16px;}
+.banquet-detail-info .Case-box p{width:140px;padding-left:40px;line-height:24px;}
+.banquet-detail-info .Case-box .theme-box{position:absolute;left:40px;bottom:20px;width:140px;}
+.banquet-detail-info .Case-box .theme{height:30px;line-height:30px;display:block;}
+.banquet-detail-info .Case-box .theme b{color:#666;}
+.banquet-detail-info .list-case{padding-bottom:20px;}
+.banquet-detail-info .list-case .item-box{width:465px;height:310px;margin-right:20px;margin-bottom:20px;float:left;}
+.banquet-detail-info .list-case .item-box:nth-child(2n){margin-right:0;}
+
+
+
+/* 婚礼策划首页 */
+.list-12-1-js{width: 1300px}
+.list-12-1-js li{margin-right:80px;}
+.list-12-1-js li:nth-child(4){margin-right:0;}
+.case-list{overflow:hidden;}
+
+
+
+/* 策划师首页 */
+.hlal-item{height:530px;}
+.hlal-item .list-2-js{float:left;}
+.hlal-item .list-2-js li{height:100%;}
+.hlal-item .info{height:528px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;position:relative;float:left;}
+.hlal-item .line-right{position:absolute;right:0;top:0;height:100%;background-color:#ddd;width:1px;overflow:hidden;}
+.hlal-item .list-5-js{}
+/* list-2-1-js样式复写 */
+.list-2-1-js{height:100%;}
+.list-2-1-js h3{font-size:24px;padding-top:210px;}
+.list-2-1-js .btn-box{padding-top:40px;}
+.list-2-1-js .etc-info b{font-size:28px;}
+.list-2-1-js .etc-info span{font-size:22px;}
+.list-2-1-js .btn-js{font-size:20px;}
+
+
+
+/* 策划师详情 */
+.figure-sdjg{height:500px;width:100%;border-bottom:1px solid #eee;}
+.figure-sdjg .planner{width:100%;height:100%;position:relative;}
+.figure-sdjg .img-box{position:relative;z-index:0;height:430px;overflow:hidden;}
+.figure-sdjg .img-box img{width:100%;}
+.figure-sdjg .info{padding-left:210px;position:relative;z-index:10;margin-top:-130px;}
+.figure-sdjg .avatar{width:160px;height:160px;border-radius:100px;border:2px solid #fff;left:23px;top:0;overflow:hidden;position:absolute;z-index:20;}
+.figure-sdjg h2{font-size:24px;font-weight:normal;color:#fff;padding-top:20px;}
+.figure-sdjg h2 b{font-size:24px;margin-left:10px;}
+.figure-sdjg h2 span{font-size:16px;color:#fff;}
+.figure-sdjg p{font-size:16px;color:#fff;line-height:26px;margin-top:20px;width:720px;}
+.figure-sdjg .score{margin-top:30px;}
+.figure-sdjg .score span{color:#c5c5c5;font-size:14px;}
+.figure-sdjg .score i{margin-right:90px;}
+.figure-sdjg .btn-box{position:absolute;left:550px;bottom:150px;z-index:30;}
+.figure-sdjg .btn-box a{float:left;margin-right:15px;}
+/* list-2-js重写样式 */
+.list-2-js li:nth-child(3n){margin-right:0;}
+
+
+
+/* 四大金刚 */
+.screening-results{position:relative;padding:25px 0 10px;border-bottom:1px solid #eee;}
+.screening-results .title{display:block;float:left;color:#666;font-size:14px;margin-right:10px;padding:6px 0 5px;}
+.screening-results .seled{display:block;float:left;color:#666;font-size:12px;padding:5px 25px 4px 10px;border:1px solid #f873a0;font-size:14px;margin:0 15px 10px 0;cursor:pointer;position:relative;}
+.screening-results .seled i{font-size:14px;display:block;position:absolute;color:#f873a0;right:8px;top:5px;}
+.screening-results .wait-pay{display:block;float:left;color:#fff;font-size:12px;padding:6px 10px 5px;background-color:#4896c6;border:1px solid #4896c6;margin-right:10px;}
+.screening-results .number{position:absolute;right:0;top:32px;}
+.screening-results .number b{font-weight:normal;color:#f873a0;}
+.screening-results .title-1{font-size:14px;color:#666;float:left;display:block;margin-right:10px;padding:5px 10px 5px 22px;position:relative;}
+.screening-results .time-box{}
+.screening-results .time-box b{display:block;float:left;padding:0 10px;line-height:30px;}
+.screening-results .time-start{display:block;float:left;border:1px solid #ddd;color:#999;padding:6px 10px 5px;border-radius:5px;}
+.screening-results .time-end{display:block;float:left;border:1px solid #ddd;color:#999;padding:8px 10px 5px;border-radius:5px;}
+.screening-results-1{height:20px;border-bottom:none;padding-bottom:0;}
+.screening-results .ico-1-4-js{position:absolute;left:0;top:6px;}
+.screening-results .search-box{position:absolute;right:0;top:26px;}
+.screening-results .check{display:block;float:left;font-size:14px;color:#999;margin-right:20px;margin-top:5px;}
+.screening-results .check:hover{color:#e83c76;}
+.screening-results .check input{border:1px solid #ddd;float:left;margin:4px 5px 0 0;}
+.screening-results .text{display:block;float:left;border:1px solid #ddd;border-radius:50px;overflow:hidden;}
+.screening-results .text input{padding:6px 10px 5px;color:#999;}
+
+.window-mask-bg{display:none;width:100%;height:100%;background-color:#000;opacity:0.5;position:fixed;left:0;top:0;z-index:900;}
+
+
+
+/* 策划详情 */
+.case-detail-banner .kpxq-img-box{width:100%;height:800px;}
+.case-detail-banner .slider-box-1-js{height:auto;}
+.case-detail-banner .big-img{width:auto;height:100%;}
+.case-detail-banner .title-4-js{height:60px;border-left:1px solid #bbb;border-right:1px solid #bbb;}
+.case-detail-banner .title-4-js h1{color:#333;font-size:28px;line-height:60px;height:100%;}
+.case-detail-banner .title-4-js .line-middle{background-color:#bbb;top:30px;}
+.case-detail-banner .title-4-js i{top:30px;}
+.case-detail-banner .gray-box{height:100px;background:#454545;position:relative;}
+.case-detail-banner .gray-box .title-box{width:254px;height:70px;position:absolute;left:0;top:0;margin:15px;z-index:100;}
+.case-detail-banner .gray-box .title-box:hover{width:900px;}
+.case-detail-banner .gray-box .title{padding:0 20px;line-height:60px;height:60px;background-color:#FC5682;float:left;overflow:hidden;border:5px solid #454545;}
+.case-detail-banner .gray-box h1{font-size:28px;color:#fff;font-weight:normal;}
+.case-detail-banner .small-img-box{width:906px;height:100%;float:right;position:relative;z-index:50;}
+.case-detail-banner .gray-box .item-box{height:100%;float:right;background-color:#fff;}
+.case-detail-banner .gray-box .item{width:150px;height:100px;float:left;cursor:pointer;}
+.case-detail-banner .gray-box .item a{text-align:center;display:block;height:100%;}
+.case-detail-banner .gray-box img{width:150px;height:100%;margin-left:1px;}
+.case-detail-banner .gray-box-2{background: none; height: auto;}
+.case-detail-banner .gray-box-2 .title-box{position: static; margin: 0; height: 40px;width: 1200px; margin-bottom: 60px;margin-top: 20px;}
+.case-detail-banner .gray-box-2 .title{background-color: transparent;border: 0px; border-top: 0px solid #000; padding: 0 0 0 15px;line-height:40px;height: 40px;border-left: 6px solid #000;}
+.case-detail-banner .gray-box-2 h1{color: #454545;font-size: 26px;}
+.case-detail-banner .gray-box-2 .small-img-box{float:none;width: 1200px;background-color: #fff; border-bottom: 1px solid #999;padding-bottom: 20px;}
+.case-detail-banner .gray-box-2 .item{ display: inline-block; width: 144px; height: 96px; text-align: center; border:3px solid #fff;overflow: hidden;}
+.case-detail-banner .gray-box-2 img{width: 100%;height: auto; margin-left: 0px; }
+.case-detail-banner .gray-box .item-current{ margin-top: 0; border:3px solid #FC5682; transition: all 0.6s ease-in-out;}
+
+
+.case-detail-box .intr-box p{padding-left:20px;line-height:30px;color:#666;padding-right:50px;}
+.case-detail-box .left-box{width:294px;float:left;}
+.case-detail-box .right-box{float:left;width:905px;border-left:1px solid #ccc;}
+.case-detail-box .theme-content{padding-left:50px;}
+.case-detail-box .theme-content .type-box{float:left;height:20px;line-height:20px;margin-right:50px;}
+.case-detail-box .theme-content .type-box span{display:block;float:left;color:#999;padding-right:10px;}
+.case-detail-box .theme-content .type-box p{float:left;color:#333;font-size:14px;float:left;margin-right:10px;}
+.case-detail-box .theme-content .type-box i{width:20px;height:100%;float:left;margin-right:5px;}
+.case-detail-box .theme-content .addr-info a{color:#FC5682;}
+.case-detail-box .theme-content .label-box{height:30px;}
+.case-detail-box .theme-content .label-box span{display:block;float:left;margin-right:10px;font-size:14px;;border:1px solid #999;padding:0 10px;line-height:30px;border-radius:3px;color:#333;}
+.case-detail-box .theme-content .label-box .unprovide{color:#ccc;border-color:#ccc;}
+.case-detail-box .theme-content .all-price{padding:0 20px;height:60px;line-height:60px;}
+.case-detail-box .theme-content .all-price span{font-size:18px;font-weight:bold;}
+.case-detail-box .theme-content .all-price b{font-size:30px;}
+.case-detail-box .theme-content .price-box{height:50px;line-height:50px;border-top:1px solid #666;float:left;}
+.case-detail-box .theme-content .price-detail{float:left;padding:0 20px;}
+.case-detail-box .theme-content .first{border-right:1px solid #ccc;}
+.case-detail-box .theme-content .price-detail b{font-weight:normal;font-size:20px;color:#666;}
+.case-detail-box .theme-content .price-detail em{margin-left:10px;}
+.case-detail-box .theme-content table{background-color:#eee;clear:both;border-top:1px solid #666;border-top:1px solid #666;}
+.case-detail-box .theme-content th,.case-detail-box .theme-content td{background-color:#fff;height:50px;text-align:center;padding:0 20px}
+.case-detail-box .theme-content th span{font-size:18px;}
+.case-detail-box .theme-content th b{font-size:30px;}
+.case-detail-box .theme-content td .price-detail{display:inline-block;text-align:center;}
+
+
+
+/* 时间轴 */
+.user-center-bg{background-color:#2f8db1;}
+.user-center-bg .responsive-box{}
+.user-center-box{width:100%;height:100%;position:relative;}
+.user-center-box .user-info{width:250px;height:300px;background-color:#fff;border-radius:3px;overflow:hidden;position:absolute;right:0;top:50px;z-index:20;}
+.user-center-box .user-info h2{padding:15px 15px 0;font-size:32px;font-weight:normal;color:#333;}
+.user-center-box .user-info .weixin-tips{margin:5px 15px 0;display:block;line-height:18px;}
+.user-center-box .user-info .ico-weixin{float:left;margin-right:5px;}
+.user-center-box .user-info .change-password{color:#fff;font-size:12px;display:inline-block;padding:2px 4px;margin-left:10px;background-color:#ff0000;border-radius:2px;overflow:hidden;}
+.user-center-box .user-info .user{height:102px;margin:40px 15px;position:relative;}
+.user-center-box .user-info img{width:100px;height:100px;border:1px solid #5691bc;border-radius:100px;overflow:hidden;position:absolute;left:0;top:0;z-index:10;}
+.user-center-box .user-info .info{height:76px;border-radius:100px;overflow:hidden;border:1px solid #5691bc;position:absolute;left:0;top:11px;z-index:0;width:100%;}
+.user-center-box .user-info .name{margin-left:110px;display:block;line-height:20px;padding-top:9px;}
+.user-center-box .user-info .job{margin-left:110px;display:block;color:#999;line-height:20px;}
+.user-center-box .user-info .number{margin-left:110px;display:block;color:#999;line-height:20px;}
+.user-center-box .user-info .address{position:absolute;left:110px;top:-10px;}
+.user-center-box .user-info .ico-ponint-1{float:left;margin-right:5px;}
+.user-center-box .user-info .city{float:left;display:block;margin:5px 5px 0 0;color:#5691bc;}
+.user-center-box .user-info .arrow-3-js{float:left;margin-top:7px;}
+.user-center-box .user-info .btn-box{margin:0 0 0 15px;}
+.user-center-box .user-info .ico-2-js{float:left;margin-right:9px;}
+.user-center-box .user-time{position:relative;z-index:10;}
+.user-center-box .my-wedding-title{height:320px;position:relative;z-index:50;}
+.user-center-box .my-wedding-title .circle-box{width:150px;height:150px;position:relative;position:relative;z-index:10;left:228px;top:100px;}
+.user-center-box .my-wedding-title .time{display:block;font-size:14px;color:#666;text-align:center;padding-top:25px;}
+.user-center-box .my-wedding-title h1{font-size:24px;color:#333;text-align:center;font-weight:normal;padding-top:10px;}
+.user-center-box .my-wedding-title h1 b{font-size:36px;color:#ff0000;display:block;padding-top:5px;font-weight:normal;}
+.user-center-box .my-wedding-title .mask-bg{background-color:#fff;opacity:0.4;width:100%;height:100%;border-radius:100px;overflow:hidden;}
+.user-center-box .my-wedding-title .content{background-color:#fff;width:140px;height:140px;position:absolute;z-index:100;left:5px;top:5px;border-radius:100px;overflow:hidden;}
+.user-center-box .user-time .line-1{width:6px;background-color:#fff;opacity:0.8;height:100%;position:absolute;left:300px;top:0;z-index:30;}
+.user-center-box .item{position:relative;z-index:100;}
+.user-center-box .item .line-2{position:absolute;width:100px;height:2px;background-color:#fff;opacity:0.5;left:250px;top:64px;z-index:50;}
+.user-center-box .item .point-1{width:24px;height:24px;background-color:#fff;opacity:0.5;position:absolute;left:291px;top:53px;border-radius:20px;overflow:hidden;z-index:60;}
+.user-center-box .item .point-2{width:16px;height:16px;background-color:#fff;position:absolute;left:295px;top:57px;border-radius:20px;overflow:hidden;z-index:70;}
+.user-center-box .theme{width:240px;height:130px;position:relative;border-radius:3px;overflow:hidden;float:left;}
+.user-center-box .theme .mask-bg{width:100%;height:100%;overflow:hidden;background-color:#fff;opacity:0.4;z-index:0;}
+.user-center-box .theme .content{height:120px;width:230px;position:absolute;left:5px;top:5px;background-color:#fff;border-radius:3px;overflow:hidden;z-index:10;}
+.user-center-box .theme .title-4-js{margin:15px 20px 0;}
+.user-center-box .item .theme h1{font-size:16px;color:#4caace;}
+.user-center-box .item .theme .line-middle{background-color:#4caace;}
+.user-center-box .theme .success{font-size:18px;color:#333;display:block;text-align:center;font-weight:normal;padding:25px 0 10px;}
+.user-center-box .theme .day{color:#888;display:block;text-align:center;font-size:14px;}
+.user-center-box .detailed{float:left;padding:45px 0 0 120px;}
+.user-center-box .detailed .list-13-js{width:780px;float:left;}
+.user-center-box .detailed .list-13-js li{float:left;margin:0 20px 20px 0;}
+.user-center-box .detailed .list-13-js .ico-4-js{position:absolute;left:50%;top:50%;margin:-29px 0 0 -29px;}
+.user-center-box .detailed .list-13-js .title h2 .blue{color:#4caace;}
+.user-center-box .detailed .list-13-1-js li{width:190px;}
+.user-center-box .title-1{position:relative;}
+.user-center-box .detailed .label-box{width:40px;height:40px;float:left;margin-right:15px;border-radius:5px;overflow:hidden;}
+.user-center-box .title-1 .ico-3-js{}
+.user-center-box .title-1 .title-6-js{float:left;border-radius:5px;margin-top:5px;position:relative;}
+.user-center-box .item .title-1 .title-6-js h1{border-radius:5px;overflow:hidden;padding-left:20px;padding-right:20px;color:#4caace;}
+.user-center-box .title-1 .title-6-js .arrow-3-js{position:absolute;left:-5px;top:10px;}
+.user-center-box .item-1 .theme h1{font-size:16px;color:#f5557b;}
+.user-center-box .item-2 .theme h1{font-size:16px;color:#2eb29a;}
+.user-center-box .item-1 .theme .line-middle{background-color:#f5557b;}
+.user-center-box .item-2 .theme .line-middle{background-color:#2eb29a;}
+.user-center-box .item-1 .title-1 .title-6-js h1{color:#f5557b;}
+.user-center-box .item-2 .title-1 .title-6-js h1{color:#2eb29a;}
+/* list-4-js重写样式与新样式 */
+.list-4-js .btn-js{margin-top:15px;padding:5px 10px;}
+.list-4-1-js .info{bottom:-100px;}
+
+
+
+/* 关于我们 */
+.with-us-header{height:90px;border:1px solid #e5e5e5;}
+.with-us-header .header{height:100%;overflow:hidden;background:none;}
+.with-us-header .title{height:100%;float:left;line-height:110px;font-size:34px;color:#333;font-weight:normal;margin-right:60px;}
+.with-us-header .item{line-height:124px;float:left;margin-right:40px;}
+.with-us-header .item:hover{color:#d79b00;}
+
+.with-us-box{}
+.with-us-box .left-box{width:360px;float:left;margin-right:40px;height:480px;background-color:#000;}
+.with-us-box .left-box h1{font-size:50px;font-weight:normal;color:#f1f1f1;text-align:center;margin-top:150px;}
+.with-us-box .left-box .intr{text-align:center;}
+.with-us-box .left-box .intr span{color:#f1f1f1;font-size:16px;}
+.with-us-box .left-box .intr b{color:#f1f1f1;font-weight:normal;padding:0 10px;}
+.with-us-box .left-box .line-1{height:1px;background-color:#999;width:50px;margin:40px auto;overflow:hidden;}
+.with-us-box .right-box{width:800px;float:left;height:480px;}
+.with-us-box .title-8-js{}
+.with-us-box .title-8-js h1{font-size:16px;font-weight:normal;}
+.with-us-box .list-1-2-js{border-top:none;}
+.with-us-box .list-1-2-js p{height:auto;}
+
+.phone-addr-box{}
+.phone-addr-box p{text-align:center;line-height:30px;color:#666;}
+
+
+
+/* 用户功能条 */
+.user-process-management{position:fixed;left:0;bottom:0;height:156px;z-index:1000;}
+.user-process-management .responsive-box{position:relative;height:100%;border-radius:5px 5px 0 0;overflow:hidden;}
+.user-process-management .overall-division-box{float:left;height:138px;padding:10px 0 0 20px;position:relative;z-index:100;}
+.user-process-management .overall-division-box .info-box{height:100%;position:relative;}
+.user-process-management .avatar-box{width:130px;height:130px;background-color:#fff;display:block;border-radius:100%;overflow:hidden;border:4px solid #fff;position:absolute;left:20px;top:10px;z-index:20;}
+.user-process-management .avatar-box img{width:100%;height:100%;}
+.user-process-management .info{width:110px;height:90px;border-radius:100px;padding-left:136px;margin-top:24px;position:relative;z-index:10;background-color:#fff;}
+.user-process-management .info b{font-size:16px;line-height:40px;padding-left:10px;}
+.user-process-management .info span{line-height:20px;font-size:12px;padding-left:10px;color:#666;}
+.user-process-management .ico-11-js{position:absolute;left:113px;top:13px;z-index:100;}
+.user-process-management .addr-box{position:absolute;height:20px;line-height:20px;top:10px;right:30px;}
+.user-process-management .addr-box .btn{display:block;cursor:pointer;}
+.user-process-management .addr-box .btn *{display:block;float:left;margin-right:5px;}
+.user-process-management .addr-box b{color:#fff;font-size:12px;}
+.user-process-management .addr-box .arrow-3-white-bottom-1-js{margin-top:5px;}
+.user-process-management .list-21-js{float:left;padding:25px 0 0 10px;position:relative;z-index:110;}
+.user-process-management .btn-box{float:left;padding:40px 0 0 10px;position:relative;z-index:120;}
+.user-process-management .btn-box .btn-1{display:block;width:115px;height:35px;background-color:#000;line-height:36px;color:#fff;cursor:pointer;margin-bottom:10px;text-align:center;border-radius:3px;overflow:hidden;position:relative;text-indent:25px;}
+.user-process-management .btn-box .btn-1:hover{background-color:#333;}
+.user-process-management .btn-box .btn-1 i{position:absolute;left:20px;top:7px;}
+.user-process-management .btn-box .btn-1 .ico-14-js{top:11px;}
+.user-process-management .btn-close{position:absolute;z-index:200;right:20px;top:60px;cursor:pointer;}
+.user-process-management .mask-bg{background-color:#000;opacity:0.7;width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;}
+
+
+
+.screening-1-js .sub-1-js span{color:#fff;}
+.list-17-js dl span span{display:inline;float:none;}
+.home-nav a span{color:#333;}
+
+
+
+/* hack */
+.mask-bg{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+.all-more-1 .arrow-box{top:14px\0;}
+.all-more-1 .arrow-box i{display:none\0;}
+.slider-box-1-js .btn-collection .mask-bg{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+.slider-box-1-js .item{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.slider-box-1-js .item-current{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+.custom-container-banner .blur-box .pos-box{display:none\0;}
+.custom-container-banner .blur-box{/*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);*/}
+
+.list-10-js h2{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.slider-box-3-js .arrow-2-js{width:12px\0;height:19px\0;}
+
+.arrow-2-js{width:12px\0;height:19px\0;border:none\0;}
+.arrow-2-lef-js{background-position:0 0 \0;}
+.arrow-2-rig-js{background-position:0 -19px \0;}
+
+.main-rig-func-box .hover-box{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);}
+.shot-adv .suite-link,.shot-adv .samples-link,.shot-adv .pringles-link{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.shot-adv .suite-link:hover,.shot-adv .samples-link:hover,.shot-adv .pringles-link:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+
+
+
+/* test */
+.adv-1{}
+.adv-1 img{width:100%;}
+.test-title-1{width:100%;height:210px;background:url('http://image.jsbn.com/static/title-bg-1.png') center center no-repeat;}
+.test-title-2{width:100%;height:210px;background:url(../images/test/title-bg-2.png) center center no-repeat;}
+.test-title-3{text-align:center;}
+.test-title-3 p{font-size:24px;color:#a2a2a2;line-height:34px;padding:20px 60px;border:2px solid #a2a2a2;display:inline-block;text-align:center;}
+
+
+/* 主容器 */
+.main{position:relative;z-index:10;background-color:#fff;}
+
+
+
+/* 首页导航 */
+.home-nav{height:80px;position:relative;z-index:40;padding-bottom:30px;background-color:#fff;}
+.home-nav .responsive-box{position:relative;height:100%;background-color:#fff;border-bottom:1px solid #ddd;}
+.home-nav a{display:block;line-height:60px;height:100%;font-size:14px;position:relative;float:left;padding:0 20px;}
+.home-nav .circle-point-js{float:left;margin-top:30px;}
+.home-nav .line-bottom{width:100%;height:0;position:absolute;left:0;bottom:0;background-color:#000;}
+.home-nav a:hover .line-bottom{height:10px;}
+.home-nav .func{position:absolute;right:0;top:0;height:100%;}
+/* linst-1-js样式重写 */
+.list-1-1-js li:nth-child(3){margin-right:0;}
+.list-1-2-js{border-top:1px solid #ddd;padding-top:30px;}
+.list-1-2-js p{line-height:20px;color:#999;overflow:hidden;height:100px;}
+.list-1-2-js li:nth-child(3){margin-right:0;}
+.list-1-2-js .last{margin:0;}
+.list-1-2-js .img-box{height:250px;}
+.list-1-1-js{float:left;}
+.list-1-1-js .item-first .img-box{height:270px;}
+.list-1-js .img-box:nth-child(2){height:270px;}
+
+.list-2-js {width: 1300px}
+
+/* 首页banner */
+.home-banner{height:680px;}
+.home-banner .slider-box-1-js{position:fixed;z-index:0;top:0;left:50%;margin-left:-600px;}
+.map-box{height:600px;}
+
+
+
+/* 婚纱摄影 */
+.photoxs-box-1{border:5px solid #000;height:350px;padding:20px;background-color:#000;}
+.photoxs-box-1 a{display:block;width:100%;height:100%;position:relative;}
+.photoxs-box-1 .more{width:100%;text-align:center;position:absolute;left:0;top:180px;}
+.photoxs-box-1 .more span{font-size:24px;color:#f1f1f1;}
+.photoxs-box-1 .h2{font-size:40px;font-weight:bold;color:#f1f1f1;text-align:center;position:absolute;width:100%;text-align:center;left:0;top:120px;}
+.photoxs-box-1 .h3{font-size:40px;font-weight:bold;color:#333;text-align:center;padding:160px 0 30px;}
+.photoxs-box-2{border:5px solid #000;height:500px;padding:20px;background-color:#000;}
+.photoxs-box-2 a{display:block;width:100%;height:100%;position:relative;}
+.photoxs-box-2 .more{text-align:center;width:100%;position:absolute;left:0;top:270px;}
+.photoxs-box-2 .more span{font-size:24px;color:#f1f1f1;}
+.photoxs-box-2 .h2{font-size:50px;font-weight:bold;color:#f1f1f1;text-align:center;width:100%;position:absolute;left:0;top:180px;}
+
+.shot-adv{}
+.shot-adv .suite-link,.shot-adv .samples-link,.shot-adv .pringles-link,.shot-adv .suite-home-link,.shot-adv .weddingmv-link{display:block;height:100%;width:400px;position:absolute;background:#fff;opacity:0;left:0;top:0;}
+.shot-adv .samples-link{left:400px;height:403px;}
+.shot-adv .pringles-link{left:800px;height:403px;}
+.shot-adv .suite-home-link{top:401px;left:400px;height:203px;}
+.shot-adv .weddingmv-link{top:401px;left:800px;height:203px;}
+.shot-adv .suite-link:hover,.shot-adv .samples-link:hover,.shot-adv .pringles-link:hover,.shot-adv .suite-home-link:hover,.shot-adv .weddingmv-link:hover{opacity:0.5}
+/* list-10-photoxs-js */
+.list-10-photoxs-js{width:1300px;}
+.list-10-photoxs-js li{height:550px;}
+.list-10-photoxs-js .mask-bg{height:50px;}
+.list-10-photoxs-js h2{height:50px;font-size:20px;line-height:50px;}
+.list-10-photoxs-js .nav-box{width:100%;height:100%;background-color:#000;}
+.list-10-photoxs-js .nav-box h3{font-weight:normal;font-size:40px;color:#eee;padding:0 0 40px;text-align:center;padding-top:120px;}
+.list-10-photoxs-js .nav{marign:0 auto;padding:0;}
+.list-10-photoxs-js .nav a{float:none;height:auto;text-align:center;font-size:14px;color:#eee;display:block;line-height:40px;}
+.list-10-photoxs-js .nav a:hover{color:#d79b00;}
+/*.list-10-photoxs-js li:nth-child(4n){margin-right:0;}*/
+
+
+
+/* 样片&客片欣赏 */
+.custom-banner{height:680px;}
+.custom-banner .info{width:290px;height:140px;position:absolute;left:0;bottom:40px;z-index:100;}
+.custom-banner .pos-box{z-index:10;}
+.custom-banner .mask-bg{display:block;background-color:#000;opacity:0.5;width:100%;height:100%;position:absolute;left:0;top:0;z-index:0;}
+.custom-banner h2{text-align:center;padding:22px 0 10px;}
+.custom-banner h2 *{display:inline-block;}
+.custom-banner h2 span{font-size:26px;color:#eee;font-weight:normal;}
+.custom-banner h2 i{margin:0 10px;}
+.custom-banner .time,.custom-banner .hit{font-size:20px;color:#eee;display:block;text-align:center;}
+.custom-banner .hit span{color:#fff;}
+
+.custom-container-banner{height:690px;position:relative;overflow:hidden;border-bottom:1px solid #000;}
+.custom-container-banner .slider-box-1-js{position:absolute;left:50%;top:0;margin-left:-960px;height:690px;width:1920px;z-index:10;}
+.custom-banner-intr-bg{width:1920px;height:205px;position:absolute;z-index:100;left:50%;bottom:0;margin-left:-960px;background-image:url('http://image.jsbn.com/static/libao/intr-bg.png');background-color:rgba(255,255,255,0.1);}
+.custom-banner-intr-bg .rect-1-js{position:absolute;left:50%;margin-left:-522px;top:-5px;display:block;width:24px;height:13px;}
+.custom-container-banner .blur-box{-webkit-filter: blur(15px);-moz-filter: blur(15px);-o-filter: blur(15px);-ms-filter: blur(15px);filter: blur(15px);height:205px;overflow:hidden;z-index:50;width:1920px;margin-left:-960px;position:absolute;left:50%;bottom:0;}
+.custom-container-banner .blur-box .slider-box-1-js{position:absolute;top:auto;left:0;bottom:0;margin:0;}
+.custom-container-banner .num-box{width:140px;height:160px;position:absolute;z-index:200;left:50%;bottom:20px;margin-left:-580px;}
+.custom-container-banner .num-box *{display:block;position:absolute;}
+.custom-container-banner .num-box span{font-size:70px;color:#333;font-weight:bold;left:25px;top:5px;}
+.custom-container-banner .num-box em{font-size:30px;color:#333;font-weight:normal;left:65px;top:70px;}
+.custom-container-banner .num-box b{font-weight:normal;font-size:40px;color:#333;left:70px;top:95px;}
+/*.list-6-photoxs-js li:nth-child(3n){margin-right:0;}*/
+.list-6-photoxs-js{width:1300px;padding:0 10px;}
+.list-6-photoxs-js li{height:400px;}
+.list-6-photoxs-js .nav-box{width:100%;height:100%;background-color:#000;}
+.list-6-photoxs-js .nav-box h3{font-weight:normal;font-size:40px;color:#eee;padding:0 0 40px;text-align:center;padding-top:120px;}
+.list-6-photoxs-js .nav{marign:0 auto;padding:0;}
+.list-6-photoxs-js .nav a{float:none;height:auto;text-align:center;font-size:14px;color:#eee;display:block;line-height:40px;}
+.list-6-photoxs-js .nav a:hover{color:#d79b00;}
+.list-6-photoxs-1-js{margin-right: -30px; overflow: auto;}
+.slider-box-1-js .item{opacity:0;}
+.slider-box-1-js .item-current{opacity:1;}
+
+
+
+/* 样片&客片详情 */
+.kpxq-img-box{width:870px;height:560px;margin:0 auto 20px;position:relative;overflow:hidden;}
+.kpxq-img-box img{width:100%;height:100%;}
+.kpxq-img-box .arrow-2-js{position:absolute;top:250px;width:30px;height:30px;cursor:pointer;}
+.kpxq-img-box .arrow-2-lef-js{left:-60px;}
+.kpxq-img-box .arrow-2-rig-js{right:-60px;}
+.kpxq-img-box .lef-hover-box,
+.kpxq-img-box .rig-hover-box{position:absolute;height:100%;width:20%;left:0;top:0;}
+.kpxq-img-box .rig-hover-box{left:auto;right:0;}
+.kpxq-img-box .ico-15-js{position:absolute;top:50%;margin:-28px 0 0;display:none;}
+.kpxq-img-box .ico-15-lef-js{left:20%;}
+.kpxq-img-box .ico-15-rig-js{right:20%;}
+.kpxq-img-box:hover{cursor:pointer;}
+.kpxq-img-box:hover .ico-15-js{display:block;}
+.page-box-1{padding:80px 0;text-align:center;}
+.page-box-1 a{display:inline-block;padding:10px 40px;color:#eee;background-color:#333;font-size:14px;}
+.page-box-1 .prev-group{margin-right:80px;}
+
+
+.shot-adv .suite-home-link{left:400px;height:203px;top:402px;}
+.shot-adv .weddingmv-link{left:800px;height:203px; top:402px;}
+.shot-adv .suite-link{height:605px;}
+/* 婚纱摄影 摄影师 */
+/* list-3-1-js */
+.list-3-1-js .figure{width:180px;margin-right:40px;}
+.list-3-js li li:last-child{margin:0;}
+.director-photography-box .list-20-js{margin-bottom:40px;}
+.director-photography-box .list-20-js .item-box{padding-top:40px;margin-top:40px;border-top:1px solid #eee;}
+.director-photography-box .list-20-js .avatar-box{margin-top:60px;}
+
+.container-ad-1 img{width:100%;}
+
+.dividing-line-box{}
+.dividing-line-box .line-zj{width:170px;height:5px;background-color:#333;overflow:hidden;}
+.dividing-line-box .line-gj{width:120px;height:5px;background-color:#333;overflow:hidden;}
+
+/* 婚纱摄影套系列表 */
+/* .list-7-js样式重写 */
+.list-7-js .func{width:318px;display:none;}
+.suites-list .list-7-js .price{margin-top:0;width:293px;padding:25px 25px 15px 0;}
+
+
+
+/* 婚纱摄影套系详情 */
+.wedding-detail{}
+.base-info{padding-left:530px;position:relative;height:420px;}
+.wedding-detail .slider-box-2-js{position:absolute;left:0;top:0;}
+.wedding-detail .sel-box{position:relative;}
+.wedding-detail .sel-box i{position:absolute;top:24px;cursor:pointer;}
+.wedding-detail .arrow-2-lef-js{left:25px;}
+.wedding-detail .arrow-2-rig-js{right:25px;}
+.wedding-detail .base-info .title{margin-bottom:20px;}
+.wedding-detail .base-info h1{font-size:30px;font-weight:normal;color:#333;margin-bottom:15px;}
+.wedding-detail .base-info h1 b{font-size:14px;font-weight:normal;color:#e83c76;margin-left:5px;}
+.wedding-detail .base-info .title span{font-size:14px;color:#999;}
+.wedding-detail .base-info .price{margin-bottom:15px;}
+.wedding-detail .base-info .price b,.wedding-detail .base-info .price span{font-size:32px;font-weight:bold;color:#e83c76;}
+.wedding-detail .base-info .price em{font-size:20px;margin-right:5px;}
+.wedding-detail .base-info .price span{color:#999;margin-left:10px;font-size:14px;}
+.wedding-detail .base-info p{line-height:24px;color:#999;}
+.wedding-detail .base-info p b{color:#666;}
+.wedding-detail .base-info .func{padding-top:20px;}
+.wedding-detail .base-info .func .btn-js{float:left;margin-right:20px;padding-left:40px;padding-right:40px;border-radius:5px;}
+.wedding-detail .base-info .collection{float:left;color:#666;font-size:16px;margin-top:12px;}
+.wedding-detail .detail-box{padding-top:40px;border-top:1px solid #e9e7e8;}
+.wedding-detail .photo-title-1{}
+.wedding-detail .photo-title-1 h2{font-size:50px;color:#e9e9e9;text-align:center;}
+.wedding-detail .photo-title-1 .h2{font-size:60px;}
+.wedding-detail .photo-title-1 span{display:block;text-align:center;color:#e9e9e9;padding:5px 0 10px;}
+.wedding-detail .photo-box{position:relative;}
+.wedding-detail .photo-box .top{height:630px;margin-bottom:1px;position:relative;z-index:10;}
+.wedding-detail .photo-box .lef{height:100%;width:430px;float:left;}
+.wedding-detail .photo-box .rig{height:100%;width:440px;float:left;}
+.wedding-detail .photo-box .tp,.wedding-detail .photo-box .bm{height:50%;width:100%;}
+.wedding-detail .photo-box .bottom{height:480px;width:100%;}
+.wedding-detail .photo-box img{width:100%;height:100%;float:left}
+.wedding-detail .photo-box .line-1{position:absolute;z-index:20;background-color:#fff;width:1px;height:100%;top:0;left:430px;overflow:hidden;}
+.wedding-detail .photo-box .line-2{position:absolute;z-index:20;background-color:#fff;height:1px;width:440px;top:315px;left:430px;overflow:hidden;}
+.wedding-detail .content{position:relative;padding-left:240px;}
+.wedding-detail .content h2{font-size:28px;position:absolute;color:#999;left:0;top:0;}
+.wedding-detail .content h2 span{font-size:20px;font-weight:normal;margin-left:60px;}
+.wedding-detail .content p{color:#666;font-size:14px;line-height:26px;}
+.wedding-detail .content p b{display:block;margin-bottom:10px;font-size:14px;}
+
+
+
+/* 婚宴预订 */
+.list-hotel-recommend{height:500px;}
+.list-hotel-recommend .column-mg30-6,.list-hotel-recommend .column-mg20-14,.list-hotel-recommend .column-5{height:100%;}
+.list-hotel-recommend .hotel-adv-box{display:block;width:100%;height:100%;}
+.list-hotel-recommend .hotel-adv-box img{width:100%;height:100%;}
+.list-hotel-recommend .top-ten-title{height:50px;line-height:50px;position:relative;background-color:#FC5682;}
+.list-hotel-recommend .top-ten-title h1{padding-left:50px;line-height:50px;color:#fff;font-size:18px;font-weight:normal;}
+.list-hotel-recommend .top-ten-title .ico-5-js{position:absolute;left:20px;top:15px;}
+.list-hotel-recommend .list-15-js{padding:15px 0 0 20px;}
+.list-hotel-recommend .hotel-top-ten-box{height:499px;border:1px solid #ddd;border-left:none;border-top:none;}
+.list-hotel-recommend .hotel-screening-1{border-bottom:none;}
+.all-more-1{margin:30px auto 40px;position:relative;padding-right:20px;}
+.all-more-1 .arrow-box{position:absolute;right:130px;top:18px;}
+.all-more-1 .arrow-box i{float:left;margin-right:-5px;border-color:#eee;width:12px;height:12px;}
+.all-more-1 span{font-size:20px;}
+
+.hotel-user-needs{width:240px;height:640px;float:left;background-color:#000;position:relative;z-index:100;}
+.hotel-user-needs .title-box{margin:30px 20px;height:60px;}
+.hotel-user-needs .select-box{padding:30px 0;margin:0 20px;border-top:1px solid #eee;border-bottom:1px solid #eee;margin-bottom:30px;}
+.hotel-user-needs .item-box{height:36px;position:relative;margin-bottom:30px;}
+.hotel-user-needs .item-box-1{z-index:100;}
+.hotel-user-needs .item-box-2{z-index:90;}
+.hotel-user-needs .item-box-3{z-index:80;}
+.hotel-user-needs .label{display:block;margin-right:10px;width:36px;height:36px;background-color:#666;line-height:38px;text-indent:-5px;border-radius:50%;overflow:hidden;font-size:26px;font-style:italic;color:#fff;float:left;}
+.hotel-user-needs .select{height:36px;width:154px;border-radius:3px;background-color:#fff;float:left;position:relative;margin-bottom:30px;cursor:pointer;}
+.hotel-user-needs .select span{font-size:14px;color:#333;line-height:36px;margin-left:15px;}
+.hotel-user-needs .select i{position:absolute;right:15px;top:15px;}
+.hotel-user-needs .btn-js{font-size:18px;border-radius:3px;overflow:hidden;cursor:pointer;position:relative;z-index:50;}
+.hotel-user-needs .intr-box{line-height:24px;color:#ccc;padding:0 20px;}
+.hotel-user-needs .option-box{position:absolute;width:100%;left:0;top:36px;padding-bottom:10px;background-color:#fff;border-radius:0 0 3px 3px;overflow:hidden;display:none;opaicty:0;}
+.hotel-user-needs .option-box .item{display:block;padding-left:15px;line-height:30px;color:#999;margin-left:0;}
+.hotel-user-needs .option-box .item:hover{background-color:#eee;color:#5691bc;}
+.hotel-user-needs .option-box-big{width:250%;border-radius:0 3px 3px 3px;}
+.hotel-user-needs .option-box-big .pos-box{margin:14px;width:auto;}
+.hotel-user-needs .option-box-big .item{float:left;width:25%;padding-left:0;text-indent:15px;}
+.hotel-user-needs .option-box-big .line-1{height:0;overflow:hidden;border-top:1px dashed #ccc;width:100%;float:left;}
+
+.opacity-block{opacity:1;display:block;}
+.opacity-none{opaicty:0;display:none;}
+
+.hotel-banner{width:960px;height:640px;float:left;}
+.hotel-banner .slider-box-1-js{height:640px;}
+
+.hotel-screening-box{height:50px;}
+
+.hotel-screening-1{overflow:visible;position:relative;z-index:500;}
+.hotel-screening-1-fixed{position:fixed;left:50%;top:0;margin:0 0 0 -600px;}
+.hotel-screening-1 .screeng-item-box{width:100%;position:absolute;left:0;top:49px;border-bottom:1px solid #000;display:none;}
+.hotel-screening-1 .screeng-item-current-box{display:block;}
+.hotel-screening-1 .screeng-item-box ul{padding:15px 10px;position:relative;z-index:10;}
+.hotel-screening-1 .screeng-item-box li{width:16.6666%;height:40px;float:left;text-align:center;font-size:14px;cursor:pointer;}
+.hotel-screening-1 .screeng-item-box li span{display:block;height:30px;line-height:32px;overflow:hidden;margin:5px 10px;color:#000;font-size:14px;}
+.hotel-screening-1 .screeng-item-box li:hover span{background-color:#000;color:#fff;}
+.hotel-screening-1 .screeng-item-box .current span{background-color:#000;color:#fff;}
+.hotel-screening-box .screening-1-js{border-bottom:1px solid #000;width:1198px;}
+.hotel-screening-box .screeng-item-box .mask-bg{position:absolute;width:100%;height:100%;left:0;top:0;z-index:0;background-color:#fff;opacity:0.95;}
+.hotel-screening-box .seled-box{float:right;}
+.hotel-screening-box .sel-box .sel{float:left;padding-left:10px;}
+.hotel-screening-box .btn-close{cursor:pointer;width:60px;height:30px;overflow:hidden;background-color:#000;text-align:center;color:#fff;line-height:30px;position:relative;z-index:20;margin:0 auto;}
+
+/* 库类复写 */
+.list-hotel-recommend .sel-card-3-js .item{width:225px;}
+.list-hotel-recommend .sel-card-3-js .item-first{width:227px;border-left:none;}
+.list-hotel-recommend .list-14-js .item-recommend-box .arrow-1-js{position:absolute;right:20px;bottom:20px;}
+.list-hotel-recommend .list-14-js .item-first{width:227px;}
+.hotel-banquet-list .item-box:nth-child(2n){margin-right:0;}
+
+
+
+/* 酒店详情 */
+.hotel-detail-box{position:relative;padding:40px 0 40px 540px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;height:436px;}
+.hotel-detail-box .img-info{width:510px;position:absolute;left:0;top:40px;}
+.hotel-detail-box .img-info .slider-tip-box{width:100%;height:70px;background-color:#F1F2F3;}
+.hotel-detail-box .img-info .slider-tip-box span{display:block;font-size:24px;width:100%;height:100%;text-align:center;line-height:70px;}
+.hotel-detail-box .img-info .slider-hover-box{display:block;}
+.hotel-detail-box .base-info{padding:0;}
+.hotel-detail-box .base-info h1{font-size:30px;color:#333;margin-bottom:10px;line-height:34px;}
+.hotel-detail-box .base-info .p{color:#999;font-size:12px;line-height:30px;margin-right:20px;}
+.hotel-detail-box .base-info .p span{padding:0 5px;}
+.hotel-detail-box .base-info .p b{color:#333;font-size:12px;font-weight:normal;}
+.hotel-detail-box .base-info .p p{float:left;margin-right:30px;}
+.hotel-detail-box .base-info .ico-8-js{display:inline-block;}
+.hotel-detail-box .base-info{}
+.hotel-detail-box .score-info{border-top:1px solid #fce195;border-bottom:1px solid #fce195;background-color:#fefaef;padding:20px 25px 20px 30px;}
+.hotel-detail-box .star-box{float:left;border-right:1px solid #fce195;padding-right:30px;}
+.hotel-detail-box .star{height:30px;}
+.hotel-detail-box .star span{height:30px;line-height:30px;color:#666;float:left;margin-right:10px;}
+.hotel-detail-box .star div{height:30px;float:left;position:relative;width:60px;}
+.hotel-detail-box .ico-star-3-js{position:absolute;left:0;top:8px;}
+.hotel-detail-box .score-info .etc{padding-left:30px;float:left;}
+.hotel-detail-box .score-info .item{height:30px;line-height:30px;font-size:14px;color:#666;}
+.hotel-detail-box .score-info em{display:block;height:20px;margin-top:5px;line-height:20px;border-radius:3px;background-color:#FC5682;color:#fff;padding:0 10px;font-size:12px;position:relative;float:left;margin-right:15px;}
+.hotel-detail-box .score-info em span{color:#fff;}
+.hotel-detail-box .score-info .arrow-5-js{position:absolute;right:-4px;top:6px;}
+.hotel-detail-box .func{}
+.hotel-detail-box .viewing-field,.hotel-detail-box .contact-info{height:34px;float:left;border-radius:3px;line-height:34px;padding:0 30px 0 64px;cursor:pointer;position:relative;background-color:#4caedd;margin-right:20px;position:relative;color:#fff;font-size:14px;}
+.hotel-detail-box .contact-info{background-color:#f36798;}
+.hotel-detail-box .viewing-field span,.hotel-detail-box .contact-inf span{color:#fff;}
+.hotel-detail-box .ico-9-1-js,.hotel-detail-box .ico-9-2-js{position:absolute;left:30px;top:5px;}
+.hotel-detail-box .collection{height:34px;line-height:34px;float:left;display:block;position:relative;padding-left:29px;font-size:14px;color:#333;cursor:pointer;}
+.hotel-detail-box .ico-9-3-js{position:absolute;left:0;top:5px;}
+.hotel-detail-box .input-phone-number{height:40px;position:relative;background-color:#f1f2f3;border-radius:3px;margin-top:10px;float:left;}
+.hotel-detail-box .input-phone-number span{float:left;line-height:24px;display:block;margin-right:10px;padding-left:10px;margin-top:8px;}
+.hotel-detail-box .input-phone-number .input-text-box{width:140px;height:24px;float:left;margin-right:5px;margin-top:8px;background-color:#fff;float:left;}
+.hotel-detail-box .input-phone-number .input-text-box input{width:130px;height:16px;padding:5px 5px 3px;font-size:12px;color:#6cbaeb;}
+.hotel-detail-box .input-phone-number .arrow-5-js{position:absolute;left:38px;top:-5px;}
+.hotel-detail-box .input-phone-number .sub-1-js{padding:0 10px;line-height:24px;height:24px;background-color:#6cbaeb;float:left;margin-top:8px;border-radius:3px;}
+.hotel-detail-box .input-phone-number .sub-1-js input{background:none;cursor:pointer;}
+.hotel-detail-box .input-phone-number .sub-1-js span{margin:0;padding:0;color:#fff;}
+.hotel-detail-box .input-phone-number-1{}
+.hotel-detail-box .input-phone-number-1 .sub-1-js{background-color:#FC5682;}
+.hotel-detail-box .input-phone-number-1 .input-text-box input{color:#FC5682;}
+.hotel-detail-box .input-phone-number-1 .arrow-5-js{position:absolute;left:235px;}
+
+.hotel-detail-info{}
+.hotel-detail-info h2{font-size:18px;color:#555;font-weight:normal;}
+.hotel-detail-info .hotel-info-box{height:240px;border-top:1px solid #eee;border-bottom:1px solid #eee;padding-left:375px;overflow:hidden;position:relative;}
+.hotel-detail-info .hotel-info-box .img-box{width:360px;height:100%;position:absolute;left:0;top:0;}
+.hotel-detail-info .hotel-info-box img{width:100%;height:100%;}
+.hotel-detail-info .hotel-info-box .p{padding:0;margin:15px 0 0;height:210px;overflow:auto;}
+.hotel-detail-info .hotel-info-box p{line-height:30px;color:#666;}
+.hotel-detail-info .package{border-bottom:1px solid #eee;padding:30px 0 40px;}
+.hotel-detail-info .package .item{float:left;padding:0 35px;width:246px;}
+.hotel-detail-info .package .item .item{height:26px;line-height:26px;position:relative;width:auto;padding:0 0 0 10px;float:none;}
+.hotel-detail-info .package .circle{display:block;width:3px;height:3px;background:#ccc;overflow:hidden;border-radius:10px;position:absolute;left:0;top:14px;}
+.hotel-detail-info .package .title{position:relative;z-index:50;margin:0 auto;display:block;border-radius:50px;overflow:hidden;font-size:14px;width:145px;height:30px;line-height:30px;color:#fff;text-align:center;background-color:#FC5682;}
+.hotel-detail-info .package p{background-color:#faf6eb;height:90px;border-radius:5px;overflow:hidden;text-align:center;line-height:110px;overflow:hidden;margin-top:-15px;position:relative;z-index:10;margin-bottom:20px;}
+.hotel-detail-info .package .item-box b{font-size:16px;font-weight:normal;color:#333;}
+.hotel-detail-info .package p span{font-size:40px;color:#333;}
+.hotel-detail-info .package .arrow-2-js{width:8px;height:8px;margin:0 auto;border-color:#bbb;}
+.hotel-detail-info .menu-detail-box .head{height:50px;border-left:1px solid #ccc;border-right:1px solid #ccc;line-height:50px;text-align:center;}
+.hotel-detail-info .menu-detail-box .head span{color:#333;font-size:12px;}
+.hotel-detail-info .menu-detail-box .detail{padding:0 0 20px;margin:0 20px;border-bottom:1px solid #ccc;}
+.hotel-detail-info .user-rating{position:relative;height:140px;}
+.hotel-detail-info .user-rating .score-box{float:left;height:90px;margin-right:30px;}
+.hotel-detail-info .user-rating .score{width:100px;height:60px;line-height:60px;display:block;font-size:30px;color:#FC5682;text-align:center;}
+.hotel-detail-info .user-rating .star-box{height:20px;width:100%;position:relative;}
+.hotel-detail-info .user-rating .ico-star-1-js{position:absolute;left:0;top:0;}
+.hotel-detail-info .user-rating .power-box{float:left;height:90px;}
+.hotel-detail-info .user-rating .item{height:25px;margin-bottom:5px;}
+.hotel-detail-info .user-rating .item span{float:left;line-height:25px;display:block;margin-right:5px;}
+.hotel-detail-info .user-rating .power{width:120px;height:14px;position:relative;float:left;margin-top:4px;}
+.hotel-detail-info .user-rating .power div{width:100%;height:100%;position:absolute;left:0;top:0;border-radius:20px;overflow:hidden;float:left;}
+.hotel-detail-info .user-rating .gray{background-color:#d7d7d7;}
+.hotel-detail-info .user-rating .pink{background-color:#FC5682;}
+.hotel-detail-info .user-rating .btn-box{position:absolute;right:0;top:30px;}
+.hotel-detail-info .user-rating .btn-js{border-radius:5px;font-size:16px;}
+.hotel-detail-info .user-rating .tip{color:#aaa;display:block;margin-top:5px;}
+
+.hotel-detail-info{}
+.hotel-detail-info .hotel-menu-list{}
+.hotel-detail-info .list-item-1-js .pirce b{font-size:40px;color:#000;}
+
+.hotel-recommend-adv-box{background-color:#f1f2f3;padding-top:15px;}
+.hotel-recommend-adv-box .title-4-js{margin:0 20px 15px;}
+.hotel-recommend-adv-box .title-4-js h1{color:#666;background-color:#f1f2f3;width:60px;margin:0 auto;}
+.hotel-recommend-adv-box .title-4-js .line-middle{background-color:#aaa;}
+.hotel-recommend-adv-box .list-19-js{width:168px;margin:0 auto;padding-bottom:10px;}
+.hotel-recommend-adv-box .list-19-js .item-box{margin-bottom:15px;}
+.hotel-recommend-adv-box .line-1-box{height:10px;position:relative;width:100%;}
+.hotel-recommend-adv-box .line-middle{height:0;width:100%;border-top:1px dashed #aaa;position:absolute;left:0;top:5px;z-idnex:0;}
+.hotel-recommend-adv-box .arrow-3-lef-js,
+.hotel-recommend-adv-box .arrow-3-rig-js{position:absolute;left:0;border-color:transparent #fff;top:0;z-index:50;}
+.hotel-recommend-adv-box .arrow-3-lef-js{left:auto;right:0;border-color:transparent #fff;}
+
+.banquet-detail-info .banquet-img-box{height:540px;width:100%;}
+.banquet-detail-info .banquet-img-box img{width:100%;height:100%;}
+.banquet-detail-info .Case-box{height:480px;}
+.banquet-detail-info .Case-box .img-box{height:100%;display:block;float:left;width:720px;}
+.banquet-detail-info .Case-box img{width:100%;height:100%;}
+.banquet-detail-info .Case-box .info-box{float:left;width:229px;border:1px solid #eee;border-left:none;height:478px;position:relative;}
+.banquet-detail-info .Case-box h3{padding:30px 0 20px 40px;font-size:16px;}
+.banquet-detail-info .Case-box p{width:140px;padding-left:40px;line-height:24px;}
+.banquet-detail-info .Case-box .theme-box{position:absolute;left:40px;bottom:20px;width:140px;}
+.banquet-detail-info .Case-box .theme{height:30px;line-height:30px;display:block;}
+.banquet-detail-info .Case-box .theme b{color:#666;}
+.banquet-detail-info .list-case{padding-bottom:20px;}
+.banquet-detail-info .list-case .item-box{width:465px;height:310px;margin-right:20px;margin-bottom:20px;float:left;}
+.banquet-detail-info .list-case .item-box:nth-child(2n){margin-right:0;}
+
+
+
+/* 婚礼策划首页 */
+.list-12-1-js{width: 1300px}
+.list-12-1-js li{margin-right:80px;}
+.list-12-1-js li:nth-child(4){margin-right:0;}
+.case-list{overflow:hidden;}
+
+
+
+/* 策划师首页 */
+.hlal-item{height:530px;}
+.hlal-item .list-2-js{float:left;}
+.hlal-item .list-2-js li{height:100%;}
+.hlal-item .info{height:528px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;position:relative;float:left;}
+.hlal-item .line-right{position:absolute;right:0;top:0;height:100%;background-color:#ddd;width:1px;overflow:hidden;}
+.hlal-item .list-5-js{}
+
+.list-3-4-js{}
+.list-3-4-js .list-4-1-js .info{bottom:-65px;}
+.list-3-4-js a.figure p{height:88px;}
+/* list-2-1-js样式复写 */
+.list-2-1-js{height:100%;}
+.list-2-1-js h3{font-size:24px;padding-top:210px;}
+.list-2-1-js .btn-box{padding-top:40px;}
+.list-2-1-js .etc-info b{font-size:28px;}
+.list-2-1-js .etc-info span{font-size:22px;}
+.list-2-1-js .btn-js{font-size:20px;}
+
+
+
+/* 策划师详情 */
+.figure-sdjg{height:500px;width:100%;border-bottom:1px solid #eee;}
+.figure-sdjg .planner{width:100%;height:100%;position:relative;}
+.figure-sdjg .img-box{position:relative;z-index:0;height:430px;overflow:hidden;}
+.figure-sdjg .img-box img{width:100%;}
+.figure-sdjg .info{padding-left:210px;position:relative;z-index:10;margin-top:-130px;}
+.figure-sdjg .avatar{width:160px;height:160px;border-radius:100px;border:2px solid #fff;left:23px;top:0;overflow:hidden;position:absolute;z-index:20;}
+.figure-sdjg h2{font-size:24px;font-weight:normal;color:#fff;padding-top:20px;}
+.figure-sdjg h2 b{font-size:24px;margin-left:10px;}
+.figure-sdjg h2 span{font-size:16px;color:#fff;}
+.figure-sdjg p{font-size:16px;color:#fff;line-height:26px;margin-top:20px;width:720px;}
+.figure-sdjg .score{margin-top:30px;}
+.figure-sdjg .score span{color:#c5c5c5;font-size:14px;}
+.figure-sdjg .score i{margin-right:90px;}
+.figure-sdjg .btn-box{position:absolute;left:550px;bottom:150px;z-index:30;}
+.figure-sdjg .btn-box a{float:left;margin-right:15px;}
+/* list-2-js重写样式 */
+.list-2-js li:nth-child(3n){margin-right:0;}
+
+
+
+/* 四大金刚 */
+.screening-results{position:relative;padding:25px 0 10px;border-bottom:1px solid #eee;}
+.screening-results .title{display:block;float:left;color:#666;font-size:14px;margin-right:10px;padding:6px 0 5px;}
+.screening-results .seled{display:block;float:left;color:#666;font-size:12px;padding:5px 25px 4px 10px;border:1px solid #f873a0;font-size:14px;margin:0 15px 10px 0;cursor:pointer;position:relative;}
+.screening-results .seled i{font-size:14px;display:block;position:absolute;color:#f873a0;right:8px;top:5px;}
+.screening-results .wait-pay{display:block;float:left;color:#fff;font-size:12px;padding:6px 10px 5px;background-color:#4896c6;border:1px solid #4896c6;margin-right:10px;}
+.screening-results .number{position:absolute;right:0;top:32px;}
+.screening-results .number b{font-weight:normal;color:#f873a0;}
+.screening-results .title-1{font-size:14px;color:#666;float:left;display:block;margin-right:10px;padding:5px 10px 5px 22px;position:relative;}
+.screening-results .time-box{}
+.screening-results .time-box b{display:block;float:left;padding:0 10px;line-height:30px;}
+.screening-results .time-start{display:block;float:left;border:1px solid #ddd;color:#999;padding:6px 10px 5px;border-radius:5px;}
+.screening-results .time-end{display:block;float:left;border:1px solid #ddd;color:#999;padding:8px 10px 5px;border-radius:5px;}
+.screening-results-1{height:20px;border-bottom:none;padding-bottom:0;}
+.screening-results .ico-1-4-js{position:absolute;left:0;top:6px;}
+.screening-results .search-box{position:absolute;right:0;top:26px;}
+.screening-results .check{display:block;float:left;font-size:14px;color:#999;margin-right:20px;margin-top:5px;}
+.screening-results .check:hover{color:#e83c76;}
+.screening-results .check input{border:1px solid #ddd;float:left;margin:4px 5px 0 0;}
+.screening-results .text{display:block;float:left;border:1px solid #ddd;border-radius:50px;overflow:hidden;}
+.screening-results .text input{padding:6px 10px 5px;color:#999;}
+
+.list-3-2-js .figure h2{padding-top:0;}
+.list-3-2-js .avatar-box{top:0;}
+.list-3-2-js .figure{margin-top:0;width:300px;margin-right:130px;}
+.list-3-2-js .figure p{height:44px;}
+.list-3-2-js .score{margin-bottom:30px;}
+.list-3-3-js li li{width:200px;height:300px;}
+.list-3-3-js .figure{top:30px;}
+.list-3-3-js .list-4-1-js .info{bottom:-65px;}
+
+.window-mask-bg{display:none;width:100%;height:100%;background-color:#000;opacity:0.5;position:fixed;left:0;top:0;z-index:900;}
+
+
+
+/* 策划详情 */
+.case-detail-banner .kpxq-img-box{width:100%;height:800px;}
+.case-detail-banner .slider-box-1-js{height:auto;}
+.case-detail-banner .big-img{width:auto;height:100%;}
+.case-detail-banner .title-4-js{height:60px;border-left:1px solid #bbb;border-right:1px solid #bbb;}
+.case-detail-banner .title-4-js h1{color:#333;font-size:28px;line-height:60px;height:100%;}
+.case-detail-banner .title-4-js .line-middle{background-color:#bbb;top:30px;}
+.case-detail-banner .title-4-js i{top:30px;}
+.case-detail-banner .gray-box{height:100px;background:#454545;position:relative;}
+.case-detail-banner .gray-box .title-box{width:254px;height:70px;position:absolute;left:0;top:0;margin:15px;z-index:100;}
+.case-detail-banner .gray-box .title-box:hover{width:900px;}
+.case-detail-banner .gray-box .title{padding:0 20px;line-height:60px;height:60px;background-color:#FC5682;float:left;overflow:hidden;border:5px solid #454545;}
+.case-detail-banner .gray-box h1{font-size:28px;color:#fff;font-weight:normal;}
+.case-detail-banner .small-img-box{width:906px;height:100%;float:right;position:relative;z-index:50;}
+.case-detail-banner .gray-box .item-box{height:100%;float:right;background-color:#fff;}
+.case-detail-banner .gray-box .item{width:150px;height:100px;float:left;cursor:pointer;}
+.case-detail-banner .gray-box .item a{text-align:center;display:block;height:100%;}
+.case-detail-banner .gray-box img{width:150px;height:100%;margin-left:1px;}
+.case-detail-banner .gray-box-2{background: none; height: auto;}
+.case-detail-banner .gray-box-2 .title-box{position: static; margin: 0; height: 40px;width: 1200px; margin-bottom: 60px;margin-top: 20px;}
+.case-detail-banner .gray-box-2 .title{background-color: transparent;border: 0px; border-top: 0px solid #000; padding: 0 0 0 15px;line-height:40px;height: 40px;border-left: 6px solid #000;}
+.case-detail-banner .gray-box-2 h1{color: #454545;font-size: 26px;}
+.case-detail-banner .gray-box-2 .small-img-box{float:none;width: 1200px;background-color: #fff; border-bottom: 1px solid #999;padding-bottom: 20px;}
+.case-detail-banner .gray-box-2 .item{ display: inline-block; width: 144px; height: 96px; text-align: center; border:3px solid #fff;overflow: hidden;}
+.case-detail-banner .gray-box-2 img{width: 100%;height: auto; margin-left: 0px; }
+.case-detail-banner .gray-box .item-current{ margin-top: 0; border:3px solid #FC5682; transition: all 0.6s ease-in-out;}
+.case-detail-box .intr-box p{padding-left:20px;line-height:30px;color:#666;padding-right:50px;}
+.case-detail-box .left-box{width:294px;float:left;}
+.case-detail-box .right-box{float:left;width:905px;border-left:1px solid #ccc;}
+.case-detail-box .theme-content{padding-left:50px;}
+.case-detail-box .theme-content .type-box{float:left;height:20px;line-height:20px;margin-right:50px;}
+.case-detail-box .theme-content .type-box span{display:block;float:left;color:#999;padding-right:10px;}
+.case-detail-box .theme-content .type-box p{float:left;color:#333;font-size:14px;float:left;margin-right:10px;}
+.case-detail-box .theme-content .type-box p span{color:#333;}
+.case-detail-box .theme-content .type-box i{width:20px;height:100%;float:left;margin-right:5px;}
+.case-detail-box .theme-content .addr-info a{color:#FC5682;}
+.case-detail-box .theme-content .label-box{height:30px;}
+.case-detail-box .theme-content .label-box span{display:block;float:left;margin-right:10px;font-size:14px;;border:1px solid #999;padding:0 10px;line-height:30px;border-radius:3px;color:#333;}
+.case-detail-box .theme-content .label-box .unprovide{color:#ccc;border-color:#ccc;}
+.case-detail-box .theme-content .all-price{padding:0 20px;height:60px;line-height:60px;}
+.case-detail-box .theme-content .all-price span{font-size:18px;font-weight:bold;}
+.case-detail-box .theme-content .all-price b{font-size:30px;}
+.case-detail-box .theme-content .price-box{height:50px;line-height:50px;border-top:1px solid #666;float:left;}
+.case-detail-box .theme-content .price-detail{float:left;padding:0 20px;}
+.case-detail-box .theme-content .first{border-right:1px solid #ccc;}
+.case-detail-box .theme-content .price-detail b{font-weight:normal;font-size:20px;color:#666;}
+.case-detail-box .theme-content .price-detail em{margin-left:10px;}
+.case-detail-box .theme-content table{background-color:#eee;clear:both;border-top:1px solid #666;border-top:1px solid #666;}
+.case-detail-box .theme-content th,.case-detail-box .theme-content td{background-color:#fff;height:50px;text-align:center;padding:0 20px}
+.case-detail-box .theme-content th span{font-size:18px;}
+.case-detail-box .theme-content th b{font-size:30px;}
+.case-detail-box .theme-content td .price-detail{display:inline-block;text-align:center;}
+
+
+
+/* 时间轴 */
+.user-center-bg{background-color:#2f8db1;}
+.user-center-bg .responsive-box{}
+.user-center-box{width:100%;height:100%;position:relative;}
+.user-center-box .user-info{width:250px;height:300px;background-color:#fff;border-radius:3px;overflow:hidden;position:absolute;right:0;top:50px;z-index:20;}
+.user-center-box .user-info h2{padding:15px 15px 0;font-size:32px;font-weight:normal;color:#333;}
+.user-center-box .user-info .weixin-tips{margin:5px 15px 0;display:block;line-height:18px;}
+.user-center-box .user-info .ico-weixin{float:left;margin-right:5px;}
+.user-center-box .user-info .change-password{color:#fff;font-size:12px;display:inline-block;padding:2px 4px;margin-left:10px;background-color:#ff0000;border-radius:2px;overflow:hidden;}
+.user-center-box .user-info .user{height:102px;margin:40px 15px;position:relative;}
+.user-center-box .user-info img{width:100px;height:100px;border:1px solid #5691bc;border-radius:100px;overflow:hidden;position:absolute;left:0;top:0;z-index:10;}
+.user-center-box .user-info .info{height:76px;border-radius:100px;overflow:hidden;border:1px solid #5691bc;position:absolute;left:0;top:11px;z-index:0;width:100%;}
+.user-center-box .user-info .name{margin-left:110px;display:block;line-height:20px;padding-top:9px;}
+.user-center-box .user-info .job{margin-left:110px;display:block;color:#999;line-height:20px;}
+.user-center-box .user-info .number{margin-left:110px;display:block;color:#999;line-height:20px;}
+.user-center-box .user-info .address{position:absolute;left:110px;top:-10px;}
+.user-center-box .user-info .ico-ponint-1{float:left;margin-right:5px;}
+.user-center-box .user-info .city{float:left;display:block;margin:5px 5px 0 0;color:#5691bc;}
+.user-center-box .user-info .arrow-3-js{float:left;margin-top:7px;}
+.user-center-box .user-info .btn-box{margin:0 0 0 15px;}
+.user-center-box .user-info .ico-2-js{float:left;margin-right:9px;}
+.user-center-box .user-time{position:relative;z-index:10;}
+.user-center-box .my-wedding-title{height:320px;position:relative;z-index:50;}
+.user-center-box .my-wedding-title .circle-box{width:150px;height:150px;position:relative;position:relative;z-index:10;left:228px;top:100px;}
+.user-center-box .my-wedding-title .time{display:block;font-size:14px;color:#666;text-align:center;padding-top:25px;}
+.user-center-box .my-wedding-title h1{font-size:24px;color:#333;text-align:center;font-weight:normal;padding-top:10px;}
+.user-center-box .my-wedding-title h1 b{font-size:36px;color:#ff0000;display:block;padding-top:5px;font-weight:normal;}
+.user-center-box .my-wedding-title .mask-bg{background-color:#fff;opacity:0.4;width:100%;height:100%;border-radius:100px;overflow:hidden;}
+.user-center-box .my-wedding-title .content{background-color:#fff;width:140px;height:140px;position:absolute;z-index:100;left:5px;top:5px;border-radius:100px;overflow:hidden;}
+.user-center-box .user-time .line-1{width:6px;background-color:#fff;opacity:0.8;height:100%;position:absolute;left:300px;top:0;z-index:30;}
+.user-center-box .item{position:relative;z-index:100;}
+.user-center-box .item .line-2{position:absolute;width:100px;height:2px;background-color:#fff;opacity:0.5;left:250px;top:64px;z-index:50;}
+.user-center-box .item .point-1{width:24px;height:24px;background-color:#fff;opacity:0.5;position:absolute;left:291px;top:53px;border-radius:20px;overflow:hidden;z-index:60;}
+.user-center-box .item .point-2{width:16px;height:16px;background-color:#fff;position:absolute;left:295px;top:57px;border-radius:20px;overflow:hidden;z-index:70;}
+.user-center-box .theme{width:240px;height:130px;position:relative;border-radius:3px;overflow:hidden;float:left;}
+.user-center-box .theme .mask-bg{width:100%;height:100%;overflow:hidden;background-color:#fff;opacity:0.4;z-index:0;}
+.user-center-box .theme .content{height:120px;width:230px;position:absolute;left:5px;top:5px;background-color:#fff;border-radius:3px;overflow:hidden;z-index:10;}
+.user-center-box .theme .title-4-js{margin:15px 20px 0;}
+.user-center-box .item .theme h1{font-size:16px;color:#4caace;}
+.user-center-box .item .theme .line-middle{background-color:#4caace;}
+.user-center-box .theme .success{font-size:18px;color:#333;display:block;text-align:center;font-weight:normal;padding:25px 0 10px;}
+.user-center-box .theme .day{color:#888;display:block;text-align:center;font-size:14px;}
+.user-center-box .detailed{float:left;padding:45px 0 0 120px;}
+.user-center-box .detailed .list-13-js{width:780px;float:left;}
+.user-center-box .detailed .list-13-js li{float:left;margin:0 20px 20px 0;}
+.user-center-box .detailed .list-13-js .ico-4-js{position:absolute;left:50%;top:50%;margin:-29px 0 0 -29px;}
+.user-center-box .detailed .list-13-js .title h2 .blue{color:#4caace;}
+.user-center-box .detailed .list-13-1-js li{width:190px;}
+.user-center-box .title-1{position:relative;}
+.user-center-box .detailed .label-box{width:40px;height:40px;float:left;margin-right:15px;border-radius:5px;overflow:hidden;}
+.user-center-box .title-1 .ico-3-js{}
+.user-center-box .title-1 .title-6-js{float:left;border-radius:5px;margin-top:5px;position:relative;}
+.user-center-box .item .title-1 .title-6-js h1{border-radius:5px;overflow:hidden;padding-left:20px;padding-right:20px;color:#4caace;}
+.user-center-box .title-1 .title-6-js .arrow-3-js{position:absolute;left:-5px;top:10px;}
+.user-center-box .item-1 .theme h1{font-size:16px;color:#f5557b;}
+.user-center-box .item-2 .theme h1{font-size:16px;color:#2eb29a;}
+.user-center-box .item-1 .theme .line-middle{background-color:#f5557b;}
+.user-center-box .item-2 .theme .line-middle{background-color:#2eb29a;}
+.user-center-box .item-1 .title-1 .title-6-js h1{color:#f5557b;}
+.user-center-box .item-2 .title-1 .title-6-js h1{color:#2eb29a;}
+/* list-4-js重写样式与新样式 */
+.list-4-js .btn-js{margin-top:15px;padding:5px 10px;}
+.list-4-1-js .info{bottom:-110px;}
+
+
+
+/* 关于我们 */
+.with-us-header{height:90px;border:1px solid #e5e5e5;}
+.with-us-header .header{height:100%;overflow:hidden;background:none;}
+.with-us-header .title{height:100%;float:left;line-height:110px;font-size:34px;color:#333;font-weight:normal;margin-right:60px;}
+.with-us-header .item{line-height:124px;float:left;margin-right:40px;}
+.with-us-header .item:hover{color:#d79b00;}
+
+.with-us-box{}
+.with-us-box .left-box{width:360px;float:left;margin-right:40px;height:480px;background-color:#000;}
+.with-us-box .left-box h1{font-size:50px;font-weight:normal;color:#f1f1f1;text-align:center;margin-top:150px;}
+.with-us-box .left-box .intr{text-align:center;}
+.with-us-box .left-box .intr span{color:#f1f1f1;font-size:16px;}
+.with-us-box .left-box .intr b{color:#f1f1f1;font-weight:normal;padding:0 10px;}
+.with-us-box .left-box .line-1{height:1px;background-color:#999;width:50px;margin:40px auto;overflow:hidden;}
+.with-us-box .right-box{width:800px;float:left;height:480px;}
+.with-us-box .title-8-js{}
+.with-us-box .title-8-js h1{font-size:16px;font-weight:normal;}
+.with-us-box .list-1-2-js{border-top:none;}
+.with-us-box .list-1-2-js p{height:auto;}
+
+.phone-addr-box{}
+.phone-addr-box p{text-align:center;line-height:30px;color:#666;}
+
+
+
+/* 用户功能条 */
+.user-process-management{position:fixed;left:0;bottom:0;height:156px;z-index:1000;}
+.user-process-management .responsive-box{position:relative;height:100%;border-radius:5px 5px 0 0;overflow:hidden;}
+.user-process-management .overall-division-box{float:left;height:138px;padding:10px 0 0 20px;position:relative;z-index:100;}
+.user-process-management .overall-division-box .info-box{height:100%;position:relative;}
+.user-process-management .avatar-box{width:130px;height:130px;background-color:#fff;display:block;border-radius:100%;overflow:hidden;border:4px solid #fff;position:absolute;left:20px;top:10px;z-index:20;}
+.user-process-management .avatar-box img{width:100%;height:100%;}
+.user-process-management .info{width:110px;height:90px;border-radius:100px;padding-left:136px;margin-top:24px;position:relative;z-index:10;background-color:#fff;}
+.user-process-management .info b{font-size:16px;line-height:40px;padding-left:10px;}
+.user-process-management .info span{line-height:20px;font-size:12px;padding-left:10px;color:#666;}
+.user-process-management .ico-11-js{position:absolute;left:113px;top:13px;z-index:100;}
+.user-process-management .addr-box{position:absolute;height:20px;line-height:20px;top:10px;right:30px;}
+.user-process-management .addr-box .btn{display:block;cursor:pointer;}
+.user-process-management .addr-box .btn *{display:block;float:left;margin-right:5px;}
+.user-process-management .addr-box b{color:#fff;font-size:12px;}
+.user-process-management .addr-box .arrow-3-white-bottom-1-js{margin-top:5px;}
+.user-process-management .list-21-js{float:left;padding:25px 0 0 10px;position:relative;z-index:110;}
+.user-process-management .btn-box{float:left;padding:40px 0 0 10px;position:relative;z-index:120;}
+.user-process-management .btn-box .btn-1{display:block;width:115px;height:35px;background-color:#000;line-height:36px;color:#fff;cursor:pointer;margin-bottom:10px;text-align:center;border-radius:3px;overflow:hidden;position:relative;text-indent:25px;}
+.user-process-management .btn-box .btn-1:hover{background-color:#333;}
+.user-process-management .btn-box .btn-1 i{position:absolute;left:20px;top:7px;}
+.user-process-management .btn-box .btn-1 .ico-14-js{top:11px;}
+.user-process-management .btn-close{position:absolute;z-index:200;right:20px;top:60px;cursor:pointer;}
+.user-process-management .mask-bg{background-color:#000;opacity:0.7;width:100%;height:100%;position:absolute;left:0;top:0;z-index:10;}
+
+
+
+/* etc */
+.screening-1-js .sub-1-js span{color:#fff;}
+.list-17-js dl span span{display:inline;float:none;}
+.home-nav a span{color:#333;}
+
+
+
+/*.lim_float_icon{display:none;}*/
+
+
+
+/* hack */
+.mask-bg{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+.all-more-1 .arrow-box{top:14px\0;}
+.all-more-1 .arrow-box i{display:none\0;}
+.slider-box-1-js .btn-collection .mask-bg{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+.slider-box-1-js .item{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.slider-box-1-js .item-current{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+.custom-container-banner .blur-box .pos-box{display:none\0;}
+.custom-container-banner .blur-box{/*filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);*/}
+
+.list-10-js h2{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.slider-box-3-js .arrow-2-js{width:12px\0;height:19px\0;}
+
+.arrow-2-js{width:12px\0;height:19px\0;border:none\0;}
+.arrow-2-lef-js{background-position:0 0 \0;}
+.arrow-2-rig-js{background-position:0 -19px \0;}
+
+.main-rig-func-box .hover-box{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20);}
+.shot-adv .suite-link,.shot-adv .samples-link,.shot-adv .pringles-link,.shot-adv .suite-home-link,.shot-adv .weddingmv-link{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.shot-adv .suite-link:hover,.shot-adv .samples-link:hover,.shot-adv .pringles-link:hover,.shot-adv .suite-home-link:hover,.shot-adv .weddingmv-link:hover{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+.hotel-screening-box .screeng-item-box .mask-bg{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=95);}
+
+
+
+/* test */
+.adv-1{}
+.adv-1 img{width:100%;}
+.test-title-1{width:100%;height:210px;background:url('http://image.jsbn.com/static/title-bg-1.png') center center no-repeat;}
+.test-title-2{width:100%;height:210px;background:url(../images/test/title-bg-2.png) center center no-repeat;}
+.test-title-3{text-align:center;}
+.test-title-3 p{font-size:24px;color:#a2a2a2;line-height:34px;padding:20px 60px;border:2px solid #a2a2a2;display:inline-block;text-align:center;}

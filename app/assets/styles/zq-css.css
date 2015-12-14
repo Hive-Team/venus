@@ -1,0 +1,119 @@
+.scrollbarall{height:225px;position:relative;overflow:hidden;}
+.scrollbarall .scrollbar{height:100%;width:5px;position:absolute;right:0;top:0;_right:-1px;z-index:20;}
+.scrollbarall .track{position:relative;background:#e8e8e8;}
+.scrollbarall .thumb{background:#b5b5b5;width:100%;position:absolute;cursor:pointer;border-radius:10px;}
+.scrollbarall .viewport{height:100%;width:100%;position:relative;z-index:10;}
+.scrollbarall .viewport div.mask{position:absolute;width:100%;height:100%;left:0;top:0;z-index:100;filter:alpha(opacity=0);opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);background:#fff;}
+.scrollbarall .overview{position:absolute;}
+.scrollbarall-01{height:196px;}
+
+/*****租车*********/
+.select-carType{ margin-top:35px;width:100%;}
+.select-carType .slt-title{width: 100%; border-bottom: 1px solid #ddd; height: 38px;}
+.select-carType .slt-title span{width:130px; height: 35px; line-height: 35px; text-align: center; border-top: 3px solid #e93d79; color: #e63d78; font-size: 16px; font-weight: bold; margin-left: 20px; border-left: 1px solid #ddd; border-right: 1px solid #ddd; float: left; border-bottom: 1px solid #fff; background-color: #fff;}
+.select-carType .slt-title a{ float: right; line-height: 38px; font-size: 14px; color: #333;}
+
+
+.slt-infoBox .sltCondition{width: 100%; border-bottom: 1px solid #ddd; padding:20px 0;  display:block; float: left;}
+.slt-infoBox .sltCondition .typeName{ height: 20px; line-height: 20px; float: left;width: 80px; padding-left: 35px; font-size: 16px; color: #333;}
+.slt-infoBox .sltCondition .typeName.bg1{ background: url(../images/selectCar-icon1.png) 10px center no-repeat;}
+.slt-infoBox .sltCondition .typeName.bg2{ background: url(../images/selectCar-icon2.png) 10px center no-repeat;}
+.slt-infoBox .sltCondition .typeName.bg3{ background: url(../images/selectCar-icon3.png) 10px center no-repeat;}
+.slt-infoBox .sltCondition .typeName.bg4{ background: url(../images/selectCar-icon4.png) 10px center no-repeat;;}
+.slt-infoBox .sltCondition .inner{ padding-left: 130px; line-height: 24px;}
+.slt-infoBox .sltCondition .inner a{ font-size: 14px; color: #333; margin:0 20px; padding: 3px 10px; float: left;}
+.slt-infoBox .sltCondition .inner a.action{ background-color: #fd73a4; color: #fff;}
+.result{ margin-top: 20px; height: 30px; line-height: 30px; font-size: 12px; color: #333;  text-align: right; float: right;}
+.result em{color: #e53c75;}
+.result .cbox{ margin-left: 4px;vertical-align:middle;}
+.carBox{ margin-right: -33px; margin-top: 20px; clear: both;}
+.carBox .itembox{width:375px; float: left; border: 1px solid #ddd; margin-right:33px; margin-bottom: 30px;}
+.carBox .itembox .tabInne{width:375px; height: 245px;}
+.carBox .itembox .htile{padding: 10px; height: 16px; color: #333;}
+.carBox .itembox .htile span{float: left; font-size: 16px;color: #333;}
+.carBox .itembox .htile .tab{ float: right; text-align: right;}
+.carBox .itembox .htile .tab span{ float: left; font-size: 14px;}
+.carBox .itembox .htile .tab a{width:16px; height: 16px; font-size:16px; border-radius: 20px; margin-left: 5px; margin-top: 3px; float: left;}
+.carBox .itembox .htile .tab a.red{  background: #ee0f08;}
+.carBox .itembox .htile .tab a.black{  background: #000;}
+.carBox .itembox .htile .tab a.white{  background: #fff; border:1px solid #ddd;}
+.carBox .itembox .htile .tab a.blue{ background: #2270ae}
+
+.carBox .itembox .htile .tab a.red{  background: #FF0000;}
+.carBox .itembox .htile .tab a.black{  background: #000;}
+.carBox .itembox .htile .tab a.white{  background: #fff; border:1px solid #ddd;}
+.carBox .itembox .htile .tab a.yellow{ background: #FFFF00}
+.carBox .itembox .htile .tab a.blue{ background: #0000FF}
+.carBox .itembox .htile .tab a.gray{ background: #808080}
+.carBox .itembox .htile .tab a.purple{ background: #800080}
+.carBox .itembox .htile .tab a.orange{ background: #FFA500}
+.carBox .itembox .htile .tab a.brown{ background: #A52A2A}
+.carBox .itembox .htile .tab a.gold{ background: #ffd700}
+.carBox .itembox .htile .tab a.silvery{ background: #c0c0c0}
+.carBox .itembox .htile .tab a.champagne{ background: #D1B7A6}
+
+
+.carBox .itembox .pname .spa1{ font-size: 16px; color: #e53c75; height:30px; line-height: 30px; font-weight: bold; padding-left: 10px;}
+.carBox .itembox .pname .spa2{ font-size: 14px; color: #999; padding-left: 20px; font-weight: normal;}
+.carBox .itembox .pname .spa2 em{ text-decoration: line-through;}
+.carBox .itembox .alink{ margin:0 auto; margin-top:15px; margin-bottom:20px;width: 190px; height: 30px;}
+.carBox .itembox .alink a{ float: left; width:90px; height: 30px; line-height: 30px; background-color: #f6f4f5; color: #000; display:block; text-align: center; border:1px solid #ddd;}
+
+/*****租车详情*********/
+.Mask{width: 100%; height: 100%; position: absolute; top: 0;left: 0; background-color: #000; opacity: 0.7;z-index: 10001; display:none;}
+.main1{width:800px; background:#fff;position:absolute; left: 50%; margin-left: -400px;top: 50px; z-index:100;}
+.img-info1{width:320px; float: left;}
+.hotel-detail-box1{position: relative;padding: 0 0 40px 380px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+.hotel-detail-box1 .img-info1 {width: 380px;position: absolute;left:0px;}
+.hotel-detail-box1 .slider-box-4-js {width: 360px;padding: 20px 20px 20px 0; padding-top: 30px;}
+.hotel-detail-box1 .slider-box-4-js .big-img-box {width: 100%; height: 260px;}
+.hotel-detail-box1 .base-info{padding-left:20px;position:relative;height:220px;}
+.hotel-detail-box1 .base-info h1{ font-size: 26px; margin-top: 40px;}
+.hotel-detail-box1 .car-rent{width:50%; float: left; height: 35px;line-height: 35px; }
+.hotel-detail-box1 .car-rent span{font-size: 14px; color: #333;}
+.hotel-detail-box1 .car-rent span i{ color:#FC5682; font-size: 14px; }
+.hotel-detail-box1 .score-info{border-top:1px solid #fce195;border-bottom:1px solid #fce195;background-color:#fefaef;padding:10px 15px 10px 15px;}
+.slider-box-4-js .sel-box{width:100%;height:56px;position:relative}
+.slider-box-4-js .slider-box{width:300px;height:100%;position:relative;margin:0 auto;overflow:hidden;}
+.slider-box-4-js .item-box{height:100%;position:absolute;left:0;top:0;}
+.slider-box-4-js .item{width:70px;height:50px;border:3px solid #fff;float:left;margin-right:10px;cursor:pointer;}
+.slider-box-4-js .item-current{border:3px solid #FC5682;cursor:default;}
+.slider-box-4-js img{width:100%;height:100%;}
+.slider-box-4-js .btn-lef,.slider-box-4-js .btn-rig{position:absolute;top:25px;left:5px;cursor:pointer;}
+.slider-box-4-js .btn-rig{left:auto;right:5px;}
+
+.hotel-detail-box1 .slide-box{float: left; width: 330px;height: 260px; position:relative;background-color: #333;overflow:hidden;}
+.hotel-detail-box1 .img-box{height: 100%;width: 100%;}
+.hotel-detail-box1 .img-box li{height: 100%;width: 100%;}
+.hotel-detail-box1 .img-box img{height: 100%;width: 100%;}
+.hotel-detail-box1 .dot-box{margin-top: 230px; padding-left: 0;}
+
+/* ============ 婚礼课堂样式 ============ */
+.ktmain .kt-tab{ height:38px; line-height: 38px; margin-top: 20px; margin-bottom: 20px;}
+.ktmain .kt-tab a{width:168px; float: left; height: 38px; text-align:center; color: #000; font-size: 16px; font-weight: bold;border-right: 2px solid #fff; background-color: #eeeeee;}
+.ktmain .kt-tab a:hover,.ktmain .kt-tab a.action{ background-color: #ec1c64; color: #fff;}
+.ktmain .ktlist{}
+.ktmain .ktlist li{width: 100%; height: 90px; padding: 20px 0; border-bottom: 1px solid #ddd;}
+.ktmain .ktlist img{width:135px; height: 90px; display: block; float: left;}
+.ktmain .ktlist .inroduce{padding-left: 20px; height: 90px; overflow: hidden;width: 1040px;float: right;position:relative;}
+.ktmain .ktlist .inroduce h2 a{ font-size: 14px; font-weight: bold; color: #000; line-height: 24px;}
+.ktmain .ktlist .inroduce h2 a:hover,.ktmain .ktlist .inroduce p a{ color: #ec1c64}
+.ktmain .ktlist .inroduce p{ line-height: 20px; font-size: 12px; color: #666;height: 40px; overflow: hidden; margin-top: 15px;}
+.ktmain .ktlist .inroduce p a{margin-left:10px;}
+.ktmain .ktlist .inroduce .time{display:block;position:absolute;right:0;top:5px;color:#999;}
+.ad-vedio{width: 100%;}
+.ad-vedio .adpic{position: relative; width: 1920px;left: 50%;margin-left: -960px;}
+/* ============ 婚礼课堂详情 ============ */
+.ktmain-info .tit{ height: 60px; line-height: 60px; border-bottom: 1px solid #ddd; text-align:center; font-size: 14px; color: #d39a02;}
+.ktmain-info p{ text-indent: 2em; font-size: 12px; color: #666; line-height: 24px;}
+.ktmain-info .content{padding-bottom:40px;}
+
+
+/*酒店列表搜索框 2016 1.1 来自名叫张青的未来问候*/
+.screening-2-js .search-box{float:left;height:30px;margin-top:9px;}
+.screening-2-js .search{height:28px;width:260px;border:1px solid #e0e0e0;background-color:#fff;float:left;position:relative; margin-left: 30px;}
+.screening-2-js .search input{height:16px;padding:8px 6px 4px 30px;width:224px;font-size:14px;color:#333;}
+.screening-2-js .search .ico-6-js{position:absolute;left:6px;top:6px; float: left;}
+.screening-2-js .search .txt{margin-top: 0; line-height: 16px;}
+.screening-2-js .sub-1-js .subt{margin-top: 0px; line-height: 30px; background:none; color: #fff;}
+.screening-2-js .sub-1-js { height: 30px;padding: 0 10px;background-color: #FC5682;display: block;color: #fff;position: relative;float: left;}

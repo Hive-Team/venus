@@ -1,0 +1,207 @@
+/*
+***
+分配图片资源
+***
+*/
+
+
+/* logo */
+.logo-1{display:block;width:162px;height:67px;background-image:url(../img/logo-1.png);}
+.logo-2{display:block;width:162px;height:67px;background-image:url(../img/logo-2.png);}
+
+
+
+/* 心形图标 */
+.adaptation-1200 .ico-heart{background-image:url(../img/ico-heart.png);display:block;overflow:hidden;}
+.adaptation-1200 .ico-heart-big{width:25px;height:23px;}
+.adaptation-1200 .ico-heart-normal{width:22px;height:20px;background-position:0 -23px;}
+.adaptation-1200 .ico-heart-small{width:16px;height:15px;background-position:0 -43px;}
+
+.adaptation-1680 .ico-heart{background-image:url(../img/img-ad1680/ico-heart.png);display:block;overflow:hidden;}
+.adaptation-1680 .ico-heart-big{width:35px;height:32px;}
+.adaptation-1680 .ico-heart-normal{width:31px;height:28px;background-position:0 -31px;}
+.adaptation-1680 .ico-heart-small{width:23px;height:21px;background-position:0 -54px;}
+
+
+
+/* 五角星 */
+.adaptation-1200 .ico-star-1-js{display:block;width:100px;height:20px;background-image:url(../img/ico-star-1-js.png);}
+.adaptation-1200 .ico-star-1-pink-js{}
+.adaptation-1200 .ico-star-1-gray-js{background-position:0 -20px;}
+
+.adaptation-1680 .ico-star-1-js{display:block;width:140px;height:28px;background-image:url(../img/img-ad1680/ico-star-1-js.png);}
+.adaptation-1680 .ico-star-1-pink-js{}
+.adaptation-1680 .ico-star-1-gray-js{background-position:0 -28px;}
+
+.adaptation-1200 .ico-star-2-js{display:block;width:80px;height:16px;background-image:url(../img/ico-star-1-js.png);background-size:16px 32px;}
+.adaptation-1200 .ico-star-2-pink-js{}
+.adaptation-1200 .ico-star-2-gray-js{background-position:0 -16px;}
+
+.adaptation-1680 .ico-star-2-js{display:block;width:112px;height:23px;background-image:url(../img/img-ad1680/ico-star-1-js.png);background-size:23px 25px;}
+.adaptation-1680 .ico-star-2-pink-js{}
+.adaptation-1680 .ico-star-2-gray-js{background-position:0 -23px;}
+
+.adaptation-1200 .ico-star-3-js{display:block;width:60px;height:12px;background-image:url(../img/ico-star-1-js.png);background-size:12px 24px;}
+.adaptation-1200 .ico-star-3-pink-js{}
+.adaptation-1200 .ico-star-3-gray-js{background-position:0 -12px;}
+
+.adaptation-1680 .ico-star-3-js{display:block;width:84px;height:17px;background-image:url(../img/img-ad1680/ico-star-1-js.png);background-size:17px 34px;}
+.adaptation-1680 .ico-star-3-pink-js{}
+.adaptation-1680 .ico-star-3-gray-js{background-position:0 -17px;}
+
+
+
+/* 图标组1 */
+.adaptation-1200 .ico-1-js{background-image:url(../img/ico-1-js.png);display:block;overflow:hidden;width:18px;height:18px;}
+.adaptation-1200 .ico-1-1-js{background-position:0 0;}
+.adaptation-1200 .ico-1-2-js{background-position:0 -18px;}
+.adaptation-1200 .ico-1-3-js{background-position:0 -36px;}
+.adaptation-1200 .ico-1-4-js{background-position:0 -54px;}
+
+.adaptation-1680 .ico-1-js{background-image:url(../img/img-ad1680/ico-1-js.png);display:block;overflow:hidden;width:25px;height:25px;}
+.adaptation-1680 .ico-1-1-js{background-position:0 0;}
+.adaptation-1680 .ico-1-2-js{background-position:0 -25px;}
+.adaptation-1680 .ico-1-3-js{background-position:0 -61px;}
+.adaptation-1680 .ico-1-4-js{background-position:0 -79px;}
+
+
+.adaptation-1200 .ico-2-js{background-image:url(../img/ico-2-js.png);display:block;overflow:hidden;width:29px;height:29px;}
+.adaptation-1200 .ico-2-1-js{background-position:0 0;}
+.adaptation-1200 .ico-2-2-js{background-position:0 -29px;}
+.adaptation-1200 .ico-2-3-js{background-position:0 -58px;}
+.adaptation-1200 .ico-2-4-js{background-position:0 -87px;}
+.adaptation-1200 .ico-2-5-js{background-position:0 -116px;}
+.adaptation-1200 .ico-2-6-js{background-position:0 -145px;}
+
+.adaptation-1680 .ico-2-js{background-image:url(../img/img-ad1680/ico-2-js.png);display:block;overflow:hidden;width:40px;height:40px;}
+.adaptation-1680 .ico-2-1-js{background-position:0 0;}
+.adaptation-1680 .ico-2-2-js{background-position:0 -40px;}
+.adaptation-1680 .ico-2-3-js{background-position:0 -59px;}
+.adaptation-1680 .ico-2-4-js{background-position:0 -98px;}
+.adaptation-1680 .ico-2-5-js{background-position:0 -127px;}
+.adaptation-1680 .ico-2-6-js{background-position:0 -156px;}
+
+
+
+.adaptation-1200 .ico-3-js{background-image:url(../img/ico-3-js.png);display:block;overflow:hidden;width:40px;height:40px;}
+.adaptation-1200 .ico-3-1-js{background-position:0 0;}
+.adaptation-1200 .ico-3-2-js{background-position:0 -40px;}
+
+.adaptation-1680 .ico-3-js{background-image:url(../img/img-ad1680/ico-3-js.png);display:block;overflow:hidden;width:56px;height:56px;}
+.adaptation-1680 .ico-3-1-js{background-position:0 0;}
+.adaptation-1680 .ico-3-2-js{background-position:0 -56px;}
+
+.ico-4-js{background-image:url(../img/ico-4-js.png);display:block;overflow:hidden;width:58px;height:58px;}
+.ico-4-1-js{background-position:0 0;}
+.ico-4-2-js{background-position:0 -57px;}
+.ico-4-3-js{background-position:0 -114px;}
+
+.adaptation-1200 .ico-5-js{background-image:url(../img/ico-8-js.png);display:block;overflow:hidden;width:14px;height:19px;}
+.adaptation-1680 .ico-5-js{background-image:url(../img/img-ad1680/ico-8-js.png);display:block;overflow:hidden;width:19px;height:27px;}
+
+.adaptation-1200 .ico-6-js{background-image:url(../img/ico-9-js.png);display:block;overflow:hidden;width:17px;height:18px;}
+.adaptation-1680 .ico-6-js{background-image:url(../img/img-ad1680/ico-9-js.png);display:block;overflow:hidden;width:24px;height:25px;}
+
+.ico-7-js{background-image:url(../img/ico-6-js.png);display:block;overflow:hidden;width:28px;height:22px;}
+.ico-7-1-js{background-position:0 0;}
+.ico-7-2-js{background-position:0 -22px;}
+
+.adaptation-1200 .ico-8-js{background-image:url(../img/ico-10-js.png);display:block;overflow:hidden;width:13px;height:16px;}
+.adaptation-1680 .ico-8-js{background-image:url(../img/img-ad1680/ico-10-js.png);display:block;overflow:hidden;width:18px;height:22px;}
+
+.ico-9-js{background-image:url(../img/ico-11-js.png);display:block;overflow:hidden;width:24px;height:24px;}
+.ico-9-1-js{background-position:0 0;}
+.ico-9-2-js{background-position:0 -24px;}
+.ico-9-3-js{background-position:0 -48px;}
+
+.ico-10-js{background-image:url(../img/ico-7-js.png);display:block;overflow:hidden;width:23px;height:23px;}
+.ico-10-1-js{background-position:0 0;}
+.ico-10-2-js{background-position:0 -23px;}
+
+.adaptation-1200 .ico-11-js{background-image:url(../img/ico-12-js.png);display:block;overflow:hidden;width:16px;height:16px;}
+.adaptation-1680 .ico-11-js{background-image:url(../img/img-ad1680/ico-12-js.png);display:block;overflow:hidden;width:22px;height:22px;}
+
+.adaptation-1200 .ico-12-js{background-image:url(../img/ico-13-js.png);display:block;overflow:hidden;width:38px;height:38px;}
+.adaptation-1680 .ico-12-js{background-image:url(../img/img-ad1680/ico-13-js.png);display:block;overflow:hidden;width:53px;height:53px;}
+
+.adaptation-1200 .ico-13-js{background-image:url(../img/ico-14-js.png);display:block;overflow:hidden;width:19px;height:21px;}
+.adaptation-1680 .ico-13-js{background-image:url(../img/img-ad1680/ico-14-js.png);display:block;overflow:hidden;width:27px;height:30px;}
+
+.adaptation-1200 .ico-14-js{background-image:url(../img/ico-15-js.png);display:block;overflow:hidden;width:17px;height:14px;}
+.adaptation-1680 .ico-14-js{background-image:url(../img/img-ad1680/ico-15-js.png);display:block;overflow:hidden;width:24px;height:19px;}
+
+.ico-15-js{background-image:url(../img/arrow-big-js.png);display:block;overflow:hidden;width:35px;height:56px;}
+.ico-15-lef-js{background-position:0 0;}
+.ico-15-rig-js{background-position:0 -56px;}
+
+.ico-16-js{background-image:url(../img/ico-16-js.png);display:block;overflow:hidden;width:18px;height:18px;}
+.ico-16-1-js{background-position:0 0;}
+.ico-16-2-js{background-position:0 -18px;}
+.ico-16-3-js{background-position:0 -36px;}
+.ico-16-4-js{background-position:0 -54px;}
+.ico-16-5-js{background-position:0 -72px;}
+
+
+
+/* 花边上下边框 */
+.flower-border{/*background-image:url(../img/flower-border.png);*/width:100%;height:104px;}
+
+
+
+/* 零碎 */
+.ico-phone{display:block;width:16px;height:16px;background-image:url(../img/ico-phone.png);}
+.ico-weixin{background-image:url(../img/ico-weixin.png);display:block;overflow:hidden;width:21px;height:17px;}
+.ico-ponint-1{background-image:url(../img/ico-point-1.png);display:block;width:17px;height:23px;}
+.screening-1-js .item-sel{background:url(../img/ico-5-js.png) no-repeat right bottom;}
+.custom-banner-intr-bg{background:url('http://image.jsbn.com/static/libao/intr-bg.png') no-repeat center top;}
+.lef-hover-box:hover .ico-15-js,.rig-hover-box:hover .ico-15-js{background-image:url(../img/arrow-big-hover-js.png);}
+
+.adaptation-1200 .rect-1-js{background-image:url(../img/rect-1-js.png);}
+.adaptation-1680 .rect-1-js{background-image:url(../img/img-ad1680/rect-1-js.png);}
+
+.rect-4-js{background-image:url(../img/hover-head.png);}
+.hotel-user-needs .title-box{background-image:url(../img/test/index.png);background-position:center center;background-repeat:no-repeat;}
+
+
+
+/* hack */
+.all-more-1 .arrow-box{width:22px\0;height:21px\0;background-image:url(../img/arrow-1-js.png)\0;}
+
+.adaptation-1200 .ico-star-2-js{background-image:url(../img/ico-star-2-js.png);}
+.adaptation-1680 .ico-star-2-js{background-image:url(../img/img-ad1680/ico-star-2-js.png);}
+.ico-star-2-js{}
+.adaptation-1200 .ico-star-3-js{background-image:url(../img/ico-star-3-js.png);}
+.adaptation-1680 .ico-star-3-js{background-image:url(../img/img-ad1680/ico-star-3-js.png);}
+
+.slider-box-3-js .arrow-2-js{background-image:url(../img/arrow-small-js.png)\0;}
+
+.custom-container-banner .blur-box{background:url(../img/ico-px-1.png)\0;}
+
+
+/****租车条件搜索筛选*****/
+.adaptation-1200 .slt-infoBox .sltCondition{width: 100%; border-bottom: 1px solid #ddd; padding:20px 0;  display:block; float: left;}
+.adaptation-1200 .slt-infoBox .sltCondition .typeName{ height: 20px; line-height: 20px; float: left;width: 80px; padding-left: 35px; font-size: 16px; color: #333;}
+.adaptation-1200 .slt-infoBox .sltCondition .typeName.bg1{ background: url(../img/selectCar-icon1.png) 10px center no-repeat;}
+.adaptation-1200 .slt-infoBox .sltCondition .typeName.bg2{ background: url(../img/selectCar-icon2.png) 10px center no-repeat;}
+.adaptation-1200 .slt-infoBox .sltCondition .typeName.bg3{ background: url(../img/selectCar-icon3.png) 10px center no-repeat;}
+.adaptation-1200 .slt-infoBox .sltCondition .typeName.bg4{ background: url(../img/selectCar-icon4.png) 10px center no-repeat;;}
+.adaptation-1200 .slt-infoBox .sltCondition .inner{ padding-left: 130px; line-height: 24px;}
+.adaptation-1200 .slt-infoBox .sltCondition .inner a{ font-size: 14px; color: #333; margin:0 20px; padding: 3px 10px; float: left;}
+.adaptation-1200 .slt-infoBox .sltCondition .inner a.action{ background-color: #fd73a4; color: #fff;}
+.adaptation-1200 .result1{ margin-top: 20px; height: 30px; line-height: 30px; font-size: 12px; color: #333;  text-align: right; float: right;}
+.adaptation-1200 .result1 em{color: #e53c75;}
+.adaptation-1200 .carBox{ margin-right: -33px; margin-top: 20px; clear: both;}
+
+
+.adaptation-1680 .slt-infoBox .sltCondition{width: 100%; border-bottom: 1px solid #ddd; padding:28px 0;  display:block; float: left;}
+.adaptation-1680 .slt-infoBox .sltCondition .typeName{ height: 28px; line-height: 28px; float: left;width: 112px; padding-left: 49px; font-size: 22px; color: #333;}
+.adaptation-1680 .slt-infoBox .sltCondition .typeName.bg1{ background: url(../img/img-ad1680/selectCar-icon1.png) 14px center no-repeat;}
+.adaptation-1680 .slt-infoBox .sltCondition .typeName.bg2{ background: url(../img/img-ad1680/selectCar-icon2.png) 14px center no-repeat;}
+.adaptation-1680 .slt-infoBox .sltCondition .typeName.bg3{ background: url(../img/img-ad1680/selectCar-icon3.png) 14px center no-repeat;}
+.adaptation-1680 .slt-infoBox .sltCondition .typeName.bg4{ background: url(../img/img-ad1680/selectCar-icon4.png) 14px center no-repeat;;}
+.adaptation-1680 .slt-infoBox .sltCondition .inner{ padding-left: 180px; line-height: 34px;}
+.adaptation-1680 .slt-infoBox .sltCondition .inner a{ font-size: 20px; color: #333; margin:0 28px; padding: 5px 14px; float: left;}
+.adaptation-1680 .slt-infoBox .sltCondition .inner a.action{ background-color: #fd73a4; color: #fff;}
+.adaptation-1680 .result1{ margin-top: 28px; height: 42px; line-height: 42px; font-size: 16px; color: #333;  text-align: right; float: right;}
+.adaptation-1680 .result1 em{color: #e53c75;}
+.adaptation-1680 .carBox{ margin-right: -47px; margin-top: 28px; clear: both;}

@@ -1,0 +1,131 @@
+/* 初始化 */
+*{margin:0px; padding:0px;}
+*{outline:none;font-family:"宋体";}
+body,div,ul,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form{padding:0;margin:0;border:none;}
+ul,li,dl,dt,dd,ol{list-style:none;}
+h1,h2,h3,h4{font-size:16px;color:#333;}
+a,span,p,font,b,i,strong,div{font-size:12px;}
+i{font-style:normal;}
+a{color:#333;text-decoration:none;}
+a:hover{text-decoration:none;}
+h1{font-size:40px;}
+
+.main-body,.footer{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+
+/* 顶部 */
+.header{
+	width:100%;
+	height:75px;
+	background:#000;
+}
+.header img{
+	display: block;
+	margin:0 auto;
+}
+
+/* 中间 */
+.nav{
+	width: 62px;
+	height: 24px;
+	margin: 18px auto 16px auto;
+	color: #d19b00;
+	text-align:center;
+}
+
+.show-box-hsxq{
+	border-top: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 80px;
+}
+
+.show-box-hsxq .grid{
+	margin-right: -21px;
+	overflow: auto;
+}
+
+.show-box-hsxq .item{
+	height: 600px;
+	width: 386px;
+	background-color: #fff;
+	margin-top: 36px;
+	margin-right: 21px;
+	float: left;
+}
+
+.show-box-hsxq .item .pic-box{
+	width: 100%;
+	height: 553px;
+	margin-bottom: 18px;
+}
+
+.show-box-hsxq .item .brand{
+	margin-bottom: 24px;
+}
+
+/* 底部 */
+.footer{
+	clear:both;
+	margin-bottom:55px;
+}
+.ft-dh{
+	margin-top:48px;
+}
+.ft-dh div{
+	height:12px;
+	width:348px;
+	margin:0px auto;
+
+}
+.ft-dh ul{
+	display:block;
+	margin-right: -44px;
+	overflow: auto;
+}
+.ft-dh ul li{
+	float:left;
+	margin-right:44px;
+}
+
+.d-code{
+	height:180px;
+	width:60px;
+	border-top:1px solid #e1e1e1;
+	border-bottom:1px solid #e1e1e1;
+	margin:0px auto;
+	margin-top:38px;
+	margin-bottom:26px;
+}
+.d-code2{
+	height:138px;
+	width:77px;
+	font-size:12px;
+	text-align:center;
+	position:absolute;
+	top:92px;
+	left:561px;
+}
+.d-code2 img{
+	display:block;
+	margin-top:14px;
+}
+.copyright{
+	height:12px;
+	width:100%;
+	text-align:center;
+	line-height:12px;
+}
+.copyright a{
+	display:inline-block;
+	margin-left:15px;
+	color:#a5a5a5;
+}
+.copyright span>span{
+	background:url(jh.png) no-repeat;
+	padding-left:16px;
+	padding-right:8px;
+	color:#a5a5a5;
+}

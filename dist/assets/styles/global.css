@@ -1,0 +1,130 @@
+/*
+***
+全局样式
+***
+*/
+
+
+/* 初始化 */
+*{outline:none;font-family:"微软雅黑";}
+body,div,ul,dl,li,h1,h2,h3,h4,h5,h6,dt,dd,img,a,span,p,table,td,i,input,button,textarea,form{padding:0;margin:0;border:none;}
+ul,li,dl,dt,dd,ol{list-style:none;}
+h1,h2,h3,h4{font-size:16px;color:#333;}
+a,span,p,font,b,i,strong{font-size:12px;}
+i{font-style:normal;}
+a{color:#333;text-decoration:none;}
+a:hover{text-decoration:none;}
+h1{font-size:40px;}
+
+
+
+/* 头部 */
+.header{background-color:#000;height:78px;position:relative;z-index:200;}
+.header .responsive-box{position:relative;z-index:200;height:76px;}
+.header .logo-1{display:block;position:absolute;left:50%;top:50%;margin:-33px 0 0 -81px;}
+.header .nav{display:block;float:left;color:#fff;font-size:14px;margin-top:30px;padding-right:26px;position:relative;cursor:pointer;}
+.header .nav b{font-size:14px;font-weight:normal;}
+.header .nav i{position:absolute;right:0;top:3px;}
+.header .nav .arrow-4-js{top:7px;}
+.header .nav span{color:#fff;}
+.header .func{display:block;float:right;margin-top:30px;position:relative;padding-left:24px;height:16px;line-height:16px;}
+.header .func .ico-phone{float:none;margin-top:1px;}
+.header .telephone{display:block;float:left;position:relative;padding-left:24px;height:16px;line-height:16px;color:#fff;font-size:14px;margin-top:0;}
+.header .telephone i{position:absolute;left:0;top:0;}
+.header .telephone span{color:#fff;}
+.header .login-btn{display:block;float:left;font-size:14px;color:#eee;margin-right:20px;cursor:pointer;}
+.header .reg-btn{display:block;float:left;font-size:14px;color:#eee;margin-right:25px;cursor:pointer;}
+.header .arrow-down{position:absolute;left:5px;top:0;display:none;}
+.header .mask-bg{width:100%;height:76px;border-bottom:2px solid #dab96b;background-color:#000;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);position:absolute;left:0;top:0;z-index:100;}
+.header .pos-box .mask-bg{border:none;}
+
+
+
+/* 主导航 */
+.nav-parent{text-align:center;height:0;position:relative;z-index:250;overflow:hidden;}
+.nav-parent .group{display:inline-block;padding:15px 50px;}
+.nav-parent .nav-item{display:block;line-height:30px;}
+.nav-parent .nav-item-1{border-bottom:1px solid #333;}
+.nav-parent a:hover,
+.nav-parent a.current{color:#d79b00;}
+
+
+
+/* 子导航 */
+.nav-main{height:56px;position:relative;z-index:40;}
+.nav-main .responsive-box{text-align:center;}
+.nav-main .nav-item{position:relative;height:100%;display:inline-block;line-height:56px;}
+.nav-main a{display:block;height:100%;padding:0 20px;color:#333;}
+.nav-main a:hover,
+.nav-main a.current{color:#d79b00;}
+
+
+
+/* 浮动导航 */
+.nav-fixed{height:80px;position:fixed;left:0;top:-80px;z-index:3000;}
+.nav-fixed .logo-2{float:left;margin:8px 60px 0 0;}
+.nav-fixed .nav-box{float:left;margin-top:55px;}
+.nav-fixed .nav-box a{display:block;float:left;margin-right:35px;}
+.nav-fixed .nav-box a:hover,.nav-fixed .nav-box a.current{color:#d79b00;}
+.nav-fixed .nav-box a span{color:#333;}
+.nav-fixed .nav-box a:hover span,
+.nav-fixed .nav-box a.current span{color:#d79b00;}
+.nav-fixed .responsive-box{position:relative;z-index:50;}
+.nav-fixed .mask-bg{background-color:#f2f2f2;opacity:0.9;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);position:absolute;left:0;top:0;width:100%;height:100%;z-index:10;}
+
+
+
+/* 登录注册 */
+.sign-drawer-box{position:absolute;left:0;top:22px;height:56px;overflow:hidden;z-index:50;}
+.sign-drawer-box .responsive-box{}
+.sign-drawer-box .login-box{float:right;height:100%;}
+.sign-drawer-box .from-control-box-1-js{float:left;margin-right:20px;}
+.sign-drawer-box .mask-bg{position:absolute;width:100%;height:100%;background-color:#f2f2f2;opacity:0.9;left:0;top:0;z-index:0;}
+.sign-drawer-box .btn-js{margin:7px 20px 0 0;float:left;}
+.sign-drawer-box .btn{display:block;width:56px;height:56px;overflow:hidden;position:relative;text-align:center;line-height:20px;cursor:pointer;font-size:20px;color:#999;}
+.sign-drawer-box .arrow-4-up-2-js{border-width:56px 28px 0;position:absolute;left:0;bottom:0;}
+.sign-drawer-box .arrow-4-down-2-js{position:absolute;left:0;top:0;border-color:#dab96b transparent transparent;}
+.sign-drawer-box .btn:hover .arrow-4-up-2-js{border-width:41px 28px 15px;}
+.sign-drawer-box .btn:hover .arrow-4-down-2-js{border-width:0 28px 56px;}
+.sign-drawer-box .btn span{font-size:12px;color:#333;line-height:56px;text-align:center;width:100%;}
+
+
+
+/* 主体 */
+.main{position:relative;overflow:hidden;}
+
+
+
+/* 全局右边浮动功能条 */
+.main-rig-func-box{position:fixed;left:50%;bottom:20px;margin-left:620px;z-index:2000;}
+.main-rig-func-box .hover-box{margin-top:1px;display:none}
+.main-rig-func-box .hover-first-box{margin-top:0;}
+.main-rig-func-box .hover-box .pos-box{width:40px;height:40px;background-color:#000;line-height:16px;text-align:center;cursor:pointer;overflow:hidden;float:left;}
+.main-rig-func-box .hover-box .pos-box span{color:#f1f1f1;padding:4px 5px 0;display:none;}
+.main-rig-func-box .hover-box:hover span{display:block;}
+.main-rig-func-box .func-box{height:0;overflow:hidden;position:relative;float:left;}
+.main-rig-func-box .func-box i{margin:11px auto 0;}
+.main-rig-func-box .hover-box:hover i{display:none;}
+.main-rig-func-box .disgin-box{margin-top:1px;position:relative;height:17px;cursor:pointer;opacity:0.2;}
+.main-rig-func-box .disgin-box i{float:left;margin-right:1px;}
+.main-rig-func-box .disgin-box .rect-3-js{left:0;top:13px;float:none;position:absolute;}
+.main-rig-func-box .disgin-box-top{height:auto;}
+.main-rig-func-box .disgin-box-top i{float:none;}
+.main-rig-func-box:hover .disgin-box{opacity:1;}
+.main-rig-func-box:hover .func-box{height:204px;}
+.phone-window-pop-box{height:40px;width:0;overflow:hidden;background-color:#000;display:block;position:fixed;right:50%;margin-right:-620px;bottom:143px;z-index:3000;}
+.phone-window-pop-box span{line-height:40px;padding:0 10px;color:#f1f1f1;font-size:12px;white-space:nowrap;}
+.qr-code-box{width:0;background-color:#000;overflow:hidden;position:fixed;right:50%;margin-right:-620px;bottom:42px;z-index:3000;}
+.qr-code-box img{display:block;padding:10px;}
+
+
+
+/* 底部 */
+.footer{position:relative;z-index:20;background-color:#fff;z-index:200;}
+.footer .responsive-box{padding:40px 0 0;border-top:1px solid #eee;}
+.footer .nav-map{text-align:center;font-size:10px;color:#eee;margin-bottom:40px;}
+.footer a{padding:0 10px;color:#111;font-size:14px;}
+.footer .er-wei-ma{width:80px;margin:0 auto;padding:36px 0;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.footer .er-wei-ma span{display:block;text-align:center;color:#111;margin-bottom:20px;}
+.footer .nav-map-1{padding:40px 0 0;}
+.footer .nav-map-1 a{color:#ccc;}

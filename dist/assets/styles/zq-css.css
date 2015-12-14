@@ -1,0 +1,30 @@
+/* ============ 自定义滚动条 ============ */
+.scrollbarall{height:225px;position:relative;overflow:hidden;}
+.scrollbarall .scrollbar{height:100%;width:5px;position:absolute;right:0;top:0;_right:-1px;z-index:20;}
+.scrollbarall .track{position:relative;background:#e8e8e8;}
+.scrollbarall .thumb{background:#b5b5b5;width:100%;position:absolute;cursor:pointer;border-radius:10px;}
+.scrollbarall .viewport{height:100%;width:100%;position:relative;z-index:10;}
+.scrollbarall .viewport div.mask{position:absolute;width:100%;height:100%;left:0;top:0;z-index:100;filter:alpha(opacity=0);opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);background:#fff;}
+.scrollbarall .overview{position:absolute;}
+.scrollbarall-01{height:196px;}
+
+
+/* ============ 婚礼课堂样式 ============ */
+.ktmain .kt-tab{ height:38px; line-height: 38px; margin-top: 20px; margin-bottom: 20px;}
+.ktmain .kt-tab a{width:238px; float: left; height: 38px; text-align:center; color: #000; font-size: 16px; font-weight: bold;border-right: 2px solid #fff; background-color: #eeeeee;}
+.ktmain .kt-tab a:hover,.ktmain .kt-tab a.action{ background-color: #ec1c64; color: #fff;}
+.ktmain .ktlist{}
+.ktmain .ktlist li{width: 100%; height: 90px; padding: 20px 0; border-bottom: 1px solid #ddd;}
+.ktmain .ktlist img{width:135px; height: 90px; display: block; float: left;}
+.ktmain .ktlist .inroduce{padding-left: 20px; height: 90px; overflow: hidden;width: 1040px;float: right;position:relative;}
+.ktmain .ktlist .inroduce h2 a{ font-size: 14px; font-weight: bold; color: #000; line-height: 24px;}
+.ktmain .ktlist .inroduce h2 a:hover,.ktmain .ktlist .inroduce p a{ color: #ec1c64}
+.ktmain .ktlist .inroduce p{ line-height: 20px; font-size: 12px; color: #666;height: 40px; overflow: hidden; margin-top: 15px;}
+.ktmain .ktlist .inroduce p a{margin-left:10px;}
+.ktmain .ktlist .inroduce .time{display:block;position:absolute;right:0;top:5px;color:#999;}
+.ad-vedio{width: 100%;}
+.ad-vedio .adpic{position: relative; width: 1920px;left: 50%;margin-left: -960px;}
+/* ============ 婚礼课堂详情 ============ */
+.ktmain-info .tit{ height: 60px; line-height: 60px; border-bottom: 1px solid #ddd; text-align:center; font-size: 14px; color: #d39a02;}
+.ktmain-info p{ text-indent: 2em; font-size: 12px; color: #666; line-height: 24px;}
+.ktmain-info .content{padding-bottom:40px;}

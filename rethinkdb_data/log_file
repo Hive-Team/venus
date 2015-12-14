@@ -1,0 +1,34 @@
+2015-12-01T14:05:36.744914000 0.374578s notice: Recursively removing directory /Users/Arya/Desktop/BH/venus-dev-3/rethinkdb_data/tmp
+2015-12-01T14:05:36.746554000 0.376223s notice: Initializing directory /Users/Arya/Desktop/BH/venus-dev-3/rethinkdb_data
+2015-12-01T14:05:36.746662000 0.376325s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Arya/Desktop/BH/venus-dev-3/rethinkdb_data' did not already exist or is empty.)
+2015-12-01T14:05:36.746698000 0.376361s notice: Running rethinkdb 2.1.5-2 (CLANG 4.2 (clang-425.0.28))...
+2015-12-01T14:05:36.750977000 0.380640s notice: Running on Darwin 15.2.0 x86_64
+2015-12-01T14:05:36.751023000 0.380686s notice: Loading data from directory /Users/Arya/Desktop/BH/venus-dev-3/rethinkdb_data
+2015-12-01T14:05:36.892945000 0.522608s info: Automatically using cache size of 2447 MB
+2015-12-01T14:05:36.895209000 0.524871s notice: Listening for intracluster connections on port 29015
+2015-12-01T14:05:36.903074000 0.532737s notice: Listening for client driver connections on port 28015
+2015-12-01T14:05:36.903455000 0.533118s notice: Listening for administrative HTTP connections on port 8080
+2015-12-01T14:05:36.903464000 0.533127s notice: Listening on addresses: 127.0.0.1, ::1
+2015-12-01T14:05:36.903465000 0.533128s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-01T14:05:36.903468000 0.533131s notice: Server ready, "appleseedezdeMacBook_Pro_local_0he" 40a7bd85-8d0d-451d-9415-32f9f9001141
+2015-12-01T14:05:47.895036000 11.524328s notice: A newer version of the RethinkDB server is available: 2.2.1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-12-01T15:38:49.122506000 5592.547183s notice: Server got SIGINT from pid 1293, uid 501; shutting down...
+2015-12-01T15:38:49.122830000 5592.547507s notice: Shutting down client connections...
+2015-12-01T15:38:49.122996000 5592.547673s notice: All client connections closed.
+2015-12-01T15:38:49.123003000 5592.547680s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-12-01T15:38:49.125715000 5592.550392s notice: Storage engine shut down.
+2015-12-01T15:38:53.734636000 0.412202s notice: Running rethinkdb 2.1.5-2 (CLANG 4.2 (clang-425.0.28))...
+2015-12-01T15:38:53.740777000 0.418338s notice: Running on Darwin 15.2.0 x86_64
+2015-12-01T15:38:53.740818000 0.418378s notice: Loading data from directory /Users/Arya/Desktop/BH/venus-dev-3/rethinkdb_data
+2015-12-01T15:38:53.781164000 0.458724s info: Automatically using cache size of 2682 MB
+2015-12-01T15:38:53.782040000 0.459600s notice: Listening for intracluster connections on port 29015
+2015-12-01T15:38:53.783276000 0.460836s notice: Listening for client driver connections on port 28015
+2015-12-01T15:38:53.783403000 0.460963s notice: Listening for administrative HTTP connections on port 8080
+2015-12-01T15:38:53.783406000 0.460966s notice: Listening on addresses: 127.0.0.1, ::1
+2015-12-01T15:38:53.783407000 0.460967s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-12-01T15:38:53.783409000 0.460969s notice: Server ready, "appleseedezdeMacBook_Pro_local_0he" 40a7bd85-8d0d-451d-9415-32f9f9001141
+2015-12-01T15:39:06.203324000 12.880447s notice: A newer version of the RethinkDB server is available: 2.2.1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-12-01T15:44:16.158022000 322.823931s info: Table 68bfc1c8-0887-455d-bc48-4a3affbb4c7d: Added replica on this server.
+2015-12-01T15:44:17.508024000 324.173862s info: Table 68bfc1c8-0887-455d-bc48-4a3affbb4c7d: Starting a new Raft election for term 1.
+2015-12-01T15:44:17.534473000 324.200310s info: Table 68bfc1c8-0887-455d-bc48-4a3affbb4c7d: This server is Raft leader for term 1. Latest log index is 0.
+2015-12-01T15:49:17.261652000 623.916654s info: Table 68bfc1c8-0887-455d-bc48-4a3affbb4c7d: Configuration is changing.
